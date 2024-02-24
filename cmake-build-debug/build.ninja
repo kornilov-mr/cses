@@ -238,6 +238,39 @@ build NestedRangeCount.exe: CXX_EXECUTABLE_LINKER__NestedRangeCount_Debug CMakeF
   TARGET_IMPLIB = libNestedRangeCount.dll.a
   TARGET_PDB = NestedRangeCount.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target RoomAllocation
+
+
+#############################################
+# Order-only phony target for RoomAllocation
+
+build cmake_object_order_depends_target_RoomAllocation: phony || CMakeFiles/RoomAllocation.dir
+
+build CMakeFiles/RoomAllocation.dir/sorting/RoomAllocation.cpp.obj: CXX_COMPILER__RoomAllocation_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/RoomAllocation.cpp || cmake_object_order_depends_target_RoomAllocation
+  DEP_FILE = CMakeFiles\RoomAllocation.dir\sorting\RoomAllocation.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RoomAllocation.dir
+  OBJECT_FILE_DIR = CMakeFiles\RoomAllocation.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RoomAllocation
+
+
+#############################################
+# Link the executable RoomAllocation.exe
+
+build RoomAllocation.exe: CXX_EXECUTABLE_LINKER__RoomAllocation_Debug CMakeFiles/RoomAllocation.dir/sorting/RoomAllocation.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RoomAllocation.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RoomAllocation.exe
+  TARGET_IMPLIB = libRoomAllocation.dll.a
+  TARGET_PDB = RoomAllocation.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -268,6 +301,8 @@ build NestedRangeCheck: phony NestedRangeCheck.exe
 
 build NestedRangeCount: phony NestedRangeCount.exe
 
+build RoomAllocation: phony RoomAllocation.exe
+
 build josephesProblem: phony josephesProblem.exe
 
 build josephesProblemEasy: phony josephesProblemEasy.exe
@@ -284,7 +319,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe
 
 # =============================================================================
 # Built-in targets
