@@ -1,15 +1,19 @@
 # ninja log v5
 1	2374	7303102921215318	CMakeFiles/towers.dir/sorting/towers.cpp.obj	fabc3b918bdaca34
 18	3530	7303101734175740	CMakeFiles/josephesProblem.dir/sorting/NestedRangeCheck.cpp.obj	40686fbf2769434d
-1	231	7303107141324553	build.ninja	bb694314a045c020
+1	310	7303129982720753	build.ninja	bb694314a045c020
 1032	1190	7300561622674898	untitled.exe	edcefa0044ae97f9
-11	3772	7303101736655498	CMakeFiles/josephesProblem.dir/sorting/josephesProblem.cpp.obj	454a8000edbe53c5
+9	3538	7303129604944553	CMakeFiles/josephesProblem.dir/sorting/josephesProblem.cpp.obj	454a8000edbe53c5
 8	190	7303102051062825	josephesProblem.exe	10fc9b95704beb66
 689	819	7303102825036674	josephesProblemEasy.exe	b65b205b58bfed18
 0	688	7303102823793913	CMakeFiles/josephesProblemEasy.dir/sorting/josephesProblem1.cpp.obj	3181ba2c4d6e295b
 2374	2510	7303102922545663	towers.exe	e1492ce39c8fc52f
-3056	3206	7303106335234809	NestedRangeCheck.exe	ac7879877970a4a0
-5	3055	7303106333764297	CMakeFiles/NestedRangeCheck.dir/sorting/NestedRangeCheck.cpp.obj	3c9a51c2889f4dd
-1	310	7303107141324553	build.ninja	bb694314a045c020
-6	2818	7303107170918348	CMakeFiles/NestedRangeCheck.dir/sorting/NestedRangeCheck.cpp.obj	3c9a51c2889f4dd
 2819	2991	7303107172589822	NestedRangeCheck.exe	ac7879877970a4a0
+6	2818	7303107170918348	CMakeFiles/NestedRangeCheck.dir/sorting/NestedRangeCheck.cpp.obj	3c9a51c2889f4dd
+1	3808	7303129607664521	CMakeFiles/josephesProblem.dir/sorting/NestedRangeCount.cpp.obj	a826b048793a0d5e
+0	3912	7303130067762016	CMakeFiles/NestedRangeCount.dir/sorting/NestedRangeCount.cpp.obj	9d387c5f36e21690
+3913	4132	7303130069922123	NestedRangeCount.exe	1ab6deddde91c847
+9	3617	7303132354305621	CMakeFiles/NestedRangeCount.dir/sorting/NestedRangeCount.cpp.obj	9d387c5f36e21690
+3618	3836	7303132356445346	NestedRangeCount.exe	1ab6deddde91c847
+8	3633	7303133197437347	CMakeFiles/NestedRangeCount.dir/sorting/NestedRangeCount.cpp.obj	9d387c5f36e21690
+3634	3846	7303133199567241	NestedRangeCount.exe	1ab6deddde91c847

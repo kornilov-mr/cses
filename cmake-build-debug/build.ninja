@@ -205,6 +205,39 @@ build josephesProblem.exe: CXX_EXECUTABLE_LINKER__josephesProblem_Debug CMakeFil
   TARGET_IMPLIB = libjosephesProblem.dll.a
   TARGET_PDB = josephesProblem.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target NestedRangeCount
+
+
+#############################################
+# Order-only phony target for NestedRangeCount
+
+build cmake_object_order_depends_target_NestedRangeCount: phony || CMakeFiles/NestedRangeCount.dir
+
+build CMakeFiles/NestedRangeCount.dir/sorting/NestedRangeCount.cpp.obj: CXX_COMPILER__NestedRangeCount_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/NestedRangeCount.cpp || cmake_object_order_depends_target_NestedRangeCount
+  DEP_FILE = CMakeFiles\NestedRangeCount.dir\sorting\NestedRangeCount.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\NestedRangeCount.dir
+  OBJECT_FILE_DIR = CMakeFiles\NestedRangeCount.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NestedRangeCount
+
+
+#############################################
+# Link the executable NestedRangeCount.exe
+
+build NestedRangeCount.exe: CXX_EXECUTABLE_LINKER__NestedRangeCount_Debug CMakeFiles/NestedRangeCount.dir/sorting/NestedRangeCount.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\NestedRangeCount.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = NestedRangeCount.exe
+  TARGET_IMPLIB = libNestedRangeCount.dll.a
+  TARGET_PDB = NestedRangeCount.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -233,6 +266,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build NestedRangeCheck: phony NestedRangeCheck.exe
 
+build NestedRangeCount: phony NestedRangeCount.exe
+
 build josephesProblem: phony josephesProblem.exe
 
 build josephesProblemEasy: phony josephesProblemEasy.exe
@@ -249,7 +284,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe
 
 # =============================================================================
 # Built-in targets
