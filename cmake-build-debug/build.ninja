@@ -271,6 +271,45 @@ build RoomAllocation.exe: CXX_EXECUTABLE_LINKER__RoomAllocation_Debug CMakeFiles
   TARGET_IMPLIB = libRoomAllocation.dll.a
   TARGET_PDB = RoomAllocation.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target FactoryMachines
+
+
+#############################################
+# Order-only phony target for FactoryMachines
+
+build cmake_object_order_depends_target_FactoryMachines: phony || CMakeFiles/FactoryMachines.dir
+
+build CMakeFiles/FactoryMachines.dir/sorting/FactoryMachines.cpp.obj: CXX_COMPILER__FactoryMachines_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/FactoryMachines.cpp || cmake_object_order_depends_target_FactoryMachines
+  DEP_FILE = CMakeFiles\FactoryMachines.dir\sorting\FactoryMachines.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\FactoryMachines.dir
+  OBJECT_FILE_DIR = CMakeFiles\FactoryMachines.dir\sorting
+
+build CMakeFiles/FactoryMachines.dir/sorting/ReadingBooks.cpp.obj: CXX_COMPILER__FactoryMachines_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/ReadingBooks.cpp || cmake_object_order_depends_target_FactoryMachines
+  DEP_FILE = CMakeFiles\FactoryMachines.dir\sorting\ReadingBooks.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\FactoryMachines.dir
+  OBJECT_FILE_DIR = CMakeFiles\FactoryMachines.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FactoryMachines
+
+
+#############################################
+# Link the executable FactoryMachines.exe
+
+build FactoryMachines.exe: CXX_EXECUTABLE_LINKER__FactoryMachines_Debug CMakeFiles/FactoryMachines.dir/sorting/FactoryMachines.cpp.obj CMakeFiles/FactoryMachines.dir/sorting/ReadingBooks.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FactoryMachines.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FactoryMachines.exe
+  TARGET_IMPLIB = libFactoryMachines.dll.a
+  TARGET_PDB = FactoryMachines.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -297,6 +336,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build FactoryMachines: phony FactoryMachines.exe
+
 build NestedRangeCheck: phony NestedRangeCheck.exe
 
 build NestedRangeCount: phony NestedRangeCount.exe
@@ -319,7 +360,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe
 
 # =============================================================================
 # Built-in targets

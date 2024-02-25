@@ -10,3 +10,5 @@ add_executable(NestedRangeCheck sorting/NestedRangeCheck.cpp)
 add_executable(josephesProblem sorting/josephesProblem.cpp)
 add_executable(NestedRangeCount  sorting/NestedRangeCount.cpp)
 add_executable(RoomAllocation  sorting/RoomAllocation.cpp)
+add_executable(FactoryMachines  sorting/FactoryMachines.cpp
+        sorting/ReadingBooks.cpp)
