@@ -7,5 +7,8 @@ C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/NestedRangeCou
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/RoomAllocation.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/FactoryMachines.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/ReadingBooks.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/SumOfThreeValues.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/PointLocationTest.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/LineSegmentIntersection.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/rebuild_cache.dir

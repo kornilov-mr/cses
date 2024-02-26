@@ -286,12 +286,6 @@ build CMakeFiles/FactoryMachines.dir/sorting/FactoryMachines.cpp.obj: CXX_COMPIL
   OBJECT_DIR = CMakeFiles\FactoryMachines.dir
   OBJECT_FILE_DIR = CMakeFiles\FactoryMachines.dir\sorting
 
-build CMakeFiles/FactoryMachines.dir/sorting/SumOfThreeValues.cpp.obj: CXX_COMPILER__FactoryMachines_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/SumOfThreeValues.cpp || cmake_object_order_depends_target_FactoryMachines
-  DEP_FILE = CMakeFiles\FactoryMachines.dir\sorting\SumOfThreeValues.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\FactoryMachines.dir
-  OBJECT_FILE_DIR = CMakeFiles\FactoryMachines.dir\sorting
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target FactoryMachines
@@ -300,7 +294,7 @@ build CMakeFiles/FactoryMachines.dir/sorting/SumOfThreeValues.cpp.obj: CXX_COMPI
 #############################################
 # Link the executable FactoryMachines.exe
 
-build FactoryMachines.exe: CXX_EXECUTABLE_LINKER__FactoryMachines_Debug CMakeFiles/FactoryMachines.dir/sorting/FactoryMachines.cpp.obj CMakeFiles/FactoryMachines.dir/sorting/SumOfThreeValues.cpp.obj
+build FactoryMachines.exe: CXX_EXECUTABLE_LINKER__FactoryMachines_Debug CMakeFiles/FactoryMachines.dir/sorting/FactoryMachines.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\FactoryMachines.dir
@@ -343,6 +337,105 @@ build ReadingBooks.exe: CXX_EXECUTABLE_LINKER__ReadingBooks_Debug CMakeFiles/Rea
   TARGET_IMPLIB = libReadingBooks.dll.a
   TARGET_PDB = ReadingBooks.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target SumOfThreeValues
+
+
+#############################################
+# Order-only phony target for SumOfThreeValues
+
+build cmake_object_order_depends_target_SumOfThreeValues: phony || CMakeFiles/SumOfThreeValues.dir
+
+build CMakeFiles/SumOfThreeValues.dir/sorting/SumOfThreeValues.cpp.obj: CXX_COMPILER__SumOfThreeValues_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/SumOfThreeValues.cpp || cmake_object_order_depends_target_SumOfThreeValues
+  DEP_FILE = CMakeFiles\SumOfThreeValues.dir\sorting\SumOfThreeValues.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SumOfThreeValues.dir
+  OBJECT_FILE_DIR = CMakeFiles\SumOfThreeValues.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SumOfThreeValues
+
+
+#############################################
+# Link the executable SumOfThreeValues.exe
+
+build SumOfThreeValues.exe: CXX_EXECUTABLE_LINKER__SumOfThreeValues_Debug CMakeFiles/SumOfThreeValues.dir/sorting/SumOfThreeValues.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SumOfThreeValues.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SumOfThreeValues.exe
+  TARGET_IMPLIB = libSumOfThreeValues.dll.a
+  TARGET_PDB = SumOfThreeValues.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PointLocationTest
+
+
+#############################################
+# Order-only phony target for PointLocationTest
+
+build cmake_object_order_depends_target_PointLocationTest: phony || CMakeFiles/PointLocationTest.dir
+
+build CMakeFiles/PointLocationTest.dir/geometry/PointLocationTest.cpp.obj: CXX_COMPILER__PointLocationTest_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/geometry/PointLocationTest.cpp || cmake_object_order_depends_target_PointLocationTest
+  DEP_FILE = CMakeFiles\PointLocationTest.dir\geometry\PointLocationTest.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\PointLocationTest.dir
+  OBJECT_FILE_DIR = CMakeFiles\PointLocationTest.dir\geometry
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PointLocationTest
+
+
+#############################################
+# Link the executable PointLocationTest.exe
+
+build PointLocationTest.exe: CXX_EXECUTABLE_LINKER__PointLocationTest_Debug CMakeFiles/PointLocationTest.dir/geometry/PointLocationTest.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\PointLocationTest.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PointLocationTest.exe
+  TARGET_IMPLIB = libPointLocationTest.dll.a
+  TARGET_PDB = PointLocationTest.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LineSegmentIntersection
+
+
+#############################################
+# Order-only phony target for LineSegmentIntersection
+
+build cmake_object_order_depends_target_LineSegmentIntersection: phony || CMakeFiles/LineSegmentIntersection.dir
+
+build CMakeFiles/LineSegmentIntersection.dir/geometry/LineSegmentIntersection.cpp.obj: CXX_COMPILER__LineSegmentIntersection_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/geometry/LineSegmentIntersection.cpp || cmake_object_order_depends_target_LineSegmentIntersection
+  DEP_FILE = CMakeFiles\LineSegmentIntersection.dir\geometry\LineSegmentIntersection.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\LineSegmentIntersection.dir
+  OBJECT_FILE_DIR = CMakeFiles\LineSegmentIntersection.dir\geometry
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LineSegmentIntersection
+
+
+#############################################
+# Link the executable LineSegmentIntersection.exe
+
+build LineSegmentIntersection.exe: CXX_EXECUTABLE_LINKER__LineSegmentIntersection_Debug CMakeFiles/LineSegmentIntersection.dir/geometry/LineSegmentIntersection.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\LineSegmentIntersection.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LineSegmentIntersection.exe
+  TARGET_IMPLIB = libLineSegmentIntersection.dll.a
+  TARGET_PDB = LineSegmentIntersection.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -371,13 +464,19 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build FactoryMachines: phony FactoryMachines.exe
 
+build LineSegmentIntersection: phony LineSegmentIntersection.exe
+
 build NestedRangeCheck: phony NestedRangeCheck.exe
 
 build NestedRangeCount: phony NestedRangeCount.exe
 
+build PointLocationTest: phony PointLocationTest.exe
+
 build ReadingBooks: phony ReadingBooks.exe
 
 build RoomAllocation: phony RoomAllocation.exe
+
+build SumOfThreeValues: phony SumOfThreeValues.exe
 
 build josephesProblem: phony josephesProblem.exe
 
@@ -395,7 +494,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe PointLocationTest.exe LineSegmentIntersection.exe
 
 # =============================================================================
 # Built-in targets
