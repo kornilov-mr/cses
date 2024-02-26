@@ -286,8 +286,8 @@ build CMakeFiles/FactoryMachines.dir/sorting/FactoryMachines.cpp.obj: CXX_COMPIL
   OBJECT_DIR = CMakeFiles\FactoryMachines.dir
   OBJECT_FILE_DIR = CMakeFiles\FactoryMachines.dir\sorting
 
-build CMakeFiles/FactoryMachines.dir/sorting/ReadingBooks.cpp.obj: CXX_COMPILER__FactoryMachines_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/ReadingBooks.cpp || cmake_object_order_depends_target_FactoryMachines
-  DEP_FILE = CMakeFiles\FactoryMachines.dir\sorting\ReadingBooks.cpp.obj.d
+build CMakeFiles/FactoryMachines.dir/sorting/SumOfThreeValues.cpp.obj: CXX_COMPILER__FactoryMachines_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/SumOfThreeValues.cpp || cmake_object_order_depends_target_FactoryMachines
+  DEP_FILE = CMakeFiles\FactoryMachines.dir\sorting\SumOfThreeValues.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\FactoryMachines.dir
   OBJECT_FILE_DIR = CMakeFiles\FactoryMachines.dir\sorting
@@ -300,7 +300,7 @@ build CMakeFiles/FactoryMachines.dir/sorting/ReadingBooks.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable FactoryMachines.exe
 
-build FactoryMachines.exe: CXX_EXECUTABLE_LINKER__FactoryMachines_Debug CMakeFiles/FactoryMachines.dir/sorting/FactoryMachines.cpp.obj CMakeFiles/FactoryMachines.dir/sorting/ReadingBooks.cpp.obj
+build FactoryMachines.exe: CXX_EXECUTABLE_LINKER__FactoryMachines_Debug CMakeFiles/FactoryMachines.dir/sorting/FactoryMachines.cpp.obj CMakeFiles/FactoryMachines.dir/sorting/SumOfThreeValues.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\FactoryMachines.dir
@@ -309,6 +309,39 @@ build FactoryMachines.exe: CXX_EXECUTABLE_LINKER__FactoryMachines_Debug CMakeFil
   TARGET_FILE = FactoryMachines.exe
   TARGET_IMPLIB = libFactoryMachines.dll.a
   TARGET_PDB = FactoryMachines.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ReadingBooks
+
+
+#############################################
+# Order-only phony target for ReadingBooks
+
+build cmake_object_order_depends_target_ReadingBooks: phony || CMakeFiles/ReadingBooks.dir
+
+build CMakeFiles/ReadingBooks.dir/sorting/ReadingBooks.cpp.obj: CXX_COMPILER__ReadingBooks_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/ReadingBooks.cpp || cmake_object_order_depends_target_ReadingBooks
+  DEP_FILE = CMakeFiles\ReadingBooks.dir\sorting\ReadingBooks.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ReadingBooks.dir
+  OBJECT_FILE_DIR = CMakeFiles\ReadingBooks.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ReadingBooks
+
+
+#############################################
+# Link the executable ReadingBooks.exe
+
+build ReadingBooks.exe: CXX_EXECUTABLE_LINKER__ReadingBooks_Debug CMakeFiles/ReadingBooks.dir/sorting/ReadingBooks.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ReadingBooks.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ReadingBooks.exe
+  TARGET_IMPLIB = libReadingBooks.dll.a
+  TARGET_PDB = ReadingBooks.exe.dbg
 
 
 #############################################
@@ -342,6 +375,8 @@ build NestedRangeCheck: phony NestedRangeCheck.exe
 
 build NestedRangeCount: phony NestedRangeCount.exe
 
+build ReadingBooks: phony ReadingBooks.exe
+
 build RoomAllocation: phony RoomAllocation.exe
 
 build josephesProblem: phony josephesProblem.exe
@@ -360,7 +395,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe
 
 # =============================================================================
 # Built-in targets
