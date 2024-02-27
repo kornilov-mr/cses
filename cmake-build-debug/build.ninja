@@ -286,6 +286,12 @@ build CMakeFiles/FactoryMachines.dir/sorting/FactoryMachines.cpp.obj: CXX_COMPIL
   OBJECT_DIR = CMakeFiles\FactoryMachines.dir
   OBJECT_FILE_DIR = CMakeFiles\FactoryMachines.dir\sorting
 
+build CMakeFiles/FactoryMachines.dir/geometry/PolygonArea.cpp.obj: CXX_COMPILER__FactoryMachines_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/geometry/PolygonArea.cpp || cmake_object_order_depends_target_FactoryMachines
+  DEP_FILE = CMakeFiles\FactoryMachines.dir\geometry\PolygonArea.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\FactoryMachines.dir
+  OBJECT_FILE_DIR = CMakeFiles\FactoryMachines.dir\geometry
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target FactoryMachines
@@ -294,7 +300,7 @@ build CMakeFiles/FactoryMachines.dir/sorting/FactoryMachines.cpp.obj: CXX_COMPIL
 #############################################
 # Link the executable FactoryMachines.exe
 
-build FactoryMachines.exe: CXX_EXECUTABLE_LINKER__FactoryMachines_Debug CMakeFiles/FactoryMachines.dir/sorting/FactoryMachines.cpp.obj
+build FactoryMachines.exe: CXX_EXECUTABLE_LINKER__FactoryMachines_Debug CMakeFiles/FactoryMachines.dir/sorting/FactoryMachines.cpp.obj CMakeFiles/FactoryMachines.dir/geometry/PolygonArea.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\FactoryMachines.dir
