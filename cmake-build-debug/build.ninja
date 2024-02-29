@@ -286,12 +286,6 @@ build CMakeFiles/FactoryMachines.dir/sorting/FactoryMachines.cpp.obj: CXX_COMPIL
   OBJECT_DIR = CMakeFiles\FactoryMachines.dir
   OBJECT_FILE_DIR = CMakeFiles\FactoryMachines.dir\sorting
 
-build CMakeFiles/FactoryMachines.dir/geometry/PolygonArea.cpp.obj: CXX_COMPILER__FactoryMachines_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/geometry/PolygonArea.cpp || cmake_object_order_depends_target_FactoryMachines
-  DEP_FILE = CMakeFiles\FactoryMachines.dir\geometry\PolygonArea.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\FactoryMachines.dir
-  OBJECT_FILE_DIR = CMakeFiles\FactoryMachines.dir\geometry
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target FactoryMachines
@@ -300,7 +294,7 @@ build CMakeFiles/FactoryMachines.dir/geometry/PolygonArea.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable FactoryMachines.exe
 
-build FactoryMachines.exe: CXX_EXECUTABLE_LINKER__FactoryMachines_Debug CMakeFiles/FactoryMachines.dir/sorting/FactoryMachines.cpp.obj CMakeFiles/FactoryMachines.dir/geometry/PolygonArea.cpp.obj
+build FactoryMachines.exe: CXX_EXECUTABLE_LINKER__FactoryMachines_Debug CMakeFiles/FactoryMachines.dir/sorting/FactoryMachines.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\FactoryMachines.dir
@@ -377,6 +371,39 @@ build SumOfThreeValues.exe: CXX_EXECUTABLE_LINKER__SumOfThreeValues_Debug CMakeF
   TARGET_PDB = SumOfThreeValues.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target TaskAndDeadlines
+
+
+#############################################
+# Order-only phony target for TaskAndDeadlines
+
+build cmake_object_order_depends_target_TaskAndDeadlines: phony || CMakeFiles/TaskAndDeadlines.dir
+
+build CMakeFiles/TaskAndDeadlines.dir/sorting/TaskAndDeadlines.cpp.obj: CXX_COMPILER__TaskAndDeadlines_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/TaskAndDeadlines.cpp || cmake_object_order_depends_target_TaskAndDeadlines
+  DEP_FILE = CMakeFiles\TaskAndDeadlines.dir\sorting\TaskAndDeadlines.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TaskAndDeadlines.dir
+  OBJECT_FILE_DIR = CMakeFiles\TaskAndDeadlines.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TaskAndDeadlines
+
+
+#############################################
+# Link the executable TaskAndDeadlines.exe
+
+build TaskAndDeadlines.exe: CXX_EXECUTABLE_LINKER__TaskAndDeadlines_Debug CMakeFiles/TaskAndDeadlines.dir/sorting/TaskAndDeadlines.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\TaskAndDeadlines.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = TaskAndDeadlines.exe
+  TARGET_IMPLIB = libTaskAndDeadlines.dll.a
+  TARGET_PDB = TaskAndDeadlines.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target PointLocationTest
 
 
@@ -442,6 +469,39 @@ build LineSegmentIntersection.exe: CXX_EXECUTABLE_LINKER__LineSegmentIntersectio
   TARGET_IMPLIB = libLineSegmentIntersection.dll.a
   TARGET_PDB = LineSegmentIntersection.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target PolygonArea
+
+
+#############################################
+# Order-only phony target for PolygonArea
+
+build cmake_object_order_depends_target_PolygonArea: phony || CMakeFiles/PolygonArea.dir
+
+build CMakeFiles/PolygonArea.dir/geometry/PolygonArea.cpp.obj: CXX_COMPILER__PolygonArea_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/geometry/PolygonArea.cpp || cmake_object_order_depends_target_PolygonArea
+  DEP_FILE = CMakeFiles\PolygonArea.dir\geometry\PolygonArea.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\PolygonArea.dir
+  OBJECT_FILE_DIR = CMakeFiles\PolygonArea.dir\geometry
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PolygonArea
+
+
+#############################################
+# Link the executable PolygonArea.exe
+
+build PolygonArea.exe: CXX_EXECUTABLE_LINKER__PolygonArea_Debug CMakeFiles/PolygonArea.dir/geometry/PolygonArea.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\PolygonArea.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PolygonArea.exe
+  TARGET_IMPLIB = libPolygonArea.dll.a
+  TARGET_PDB = PolygonArea.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -478,11 +538,15 @@ build NestedRangeCount: phony NestedRangeCount.exe
 
 build PointLocationTest: phony PointLocationTest.exe
 
+build PolygonArea: phony PolygonArea.exe
+
 build ReadingBooks: phony ReadingBooks.exe
 
 build RoomAllocation: phony RoomAllocation.exe
 
 build SumOfThreeValues: phony SumOfThreeValues.exe
+
+build TaskAndDeadlines: phony TaskAndDeadlines.exe
 
 build josephesProblem: phony josephesProblem.exe
 
@@ -500,7 +564,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe PointLocationTest.exe LineSegmentIntersection.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe
 
 # =============================================================================
 # Built-in targets
