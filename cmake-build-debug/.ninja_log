@@ -1,7 +1,7 @@
 # ninja log v5
 1	2374	7303102921215318	CMakeFiles/towers.dir/sorting/towers.cpp.obj	fabc3b918bdaca34
 18	3530	7303101734175740	CMakeFiles/josephesProblem.dir/sorting/NestedRangeCheck.cpp.obj	40686fbf2769434d
-1	391	7309090142766456	build.ninja	bb694314a045c020
+1	391	7309102126832404	build.ninja	bb694314a045c020
 1032	1190	7300561622674898	untitled.exe	edcefa0044ae97f9
 9	3538	7303129604944553	CMakeFiles/josephesProblem.dir/sorting/josephesProblem.cpp.obj	454a8000edbe53c5
 6	169	7305119335707960	josephesProblem.exe	10fc9b95704beb66
@@ -26,7 +26,11 @@
 2705	3086	7309061673082069	SumOfThreeValues.exe	7eb91c2a2ab37be5
 6	2738	7306530304904100	CMakeFiles/LineSegmentIntersection.dir/geometry/LineSegmentIntersection.cpp.obj	dc09b8e19ca1e749
 2740	2922	7306530306729654	LineSegmentIntersection.exe	515ec6a9a04648b2
-1	3467	7309090264269529	CMakeFiles/TaskAndDeadlines.dir/sorting/TaskAndDeadlines.cpp.obj	5f5bbcaa54801b33
-3468	3628	7309090265844001	TaskAndDeadlines.exe	c1bcc01fbbd6b782
 7	2458	7309090603391756	CMakeFiles/TaskAndDeadlines.dir/sorting/TaskAndDeadlines.cpp.obj	5f5bbcaa54801b33
 2459	2611	7309090604881485	TaskAndDeadlines.exe	c1bcc01fbbd6b782
+1	3377	7309102256349709	CMakeFiles/NearestSmallerValue.dir/sorting/NearestSmallerValue.cpp.obj	2d86abd945c0b801
+3378	3528	7309102257811761	NearestSmallerValue.exe	2a3c5b9681d8af84
+7	2486	7309103037031476	CMakeFiles/NearestSmallerValue.dir/sorting/NearestSmallerValue.cpp.obj	2d86abd945c0b801
+2487	2642	7309103038542951	NearestSmallerValue.exe	2a3c5b9681d8af84
+7	2351	7309103620338370	CMakeFiles/NearestSmallerValue.dir/sorting/NearestSmallerValue.cpp.obj	2d86abd945c0b801
+2352	2493	7309103621723085	NearestSmallerValue.exe	2a3c5b9681d8af84

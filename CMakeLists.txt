@@ -14,6 +14,7 @@ add_executable(FactoryMachines  sorting/FactoryMachines.cpp)
 add_executable(ReadingBooks  sorting/ReadingBooks.cpp)
 add_executable(SumOfThreeValues  sorting/SumOfThreeValues.cpp)
 add_executable(TaskAndDeadlines  sorting/TaskAndDeadlines.cpp)
+add_executable(NearestSmallerValue  sorting/NearestSmallerValue.cpp)
 
 add_executable(PointLocationTest  geometry/PointLocationTest.cpp)
 add_executable(LineSegmentIntersection  geometry/LineSegmentIntersection.cpp)

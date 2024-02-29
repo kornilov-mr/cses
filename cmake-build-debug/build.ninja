@@ -404,6 +404,39 @@ build TaskAndDeadlines.exe: CXX_EXECUTABLE_LINKER__TaskAndDeadlines_Debug CMakeF
   TARGET_PDB = TaskAndDeadlines.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target NearestSmallerValue
+
+
+#############################################
+# Order-only phony target for NearestSmallerValue
+
+build cmake_object_order_depends_target_NearestSmallerValue: phony || CMakeFiles/NearestSmallerValue.dir
+
+build CMakeFiles/NearestSmallerValue.dir/sorting/NearestSmallerValue.cpp.obj: CXX_COMPILER__NearestSmallerValue_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/NearestSmallerValue.cpp || cmake_object_order_depends_target_NearestSmallerValue
+  DEP_FILE = CMakeFiles\NearestSmallerValue.dir\sorting\NearestSmallerValue.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\NearestSmallerValue.dir
+  OBJECT_FILE_DIR = CMakeFiles\NearestSmallerValue.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NearestSmallerValue
+
+
+#############################################
+# Link the executable NearestSmallerValue.exe
+
+build NearestSmallerValue.exe: CXX_EXECUTABLE_LINKER__NearestSmallerValue_Debug CMakeFiles/NearestSmallerValue.dir/sorting/NearestSmallerValue.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\NearestSmallerValue.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = NearestSmallerValue.exe
+  TARGET_IMPLIB = libNearestSmallerValue.dll.a
+  TARGET_PDB = NearestSmallerValue.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target PointLocationTest
 
 
@@ -532,6 +565,8 @@ build FactoryMachines: phony FactoryMachines.exe
 
 build LineSegmentIntersection: phony LineSegmentIntersection.exe
 
+build NearestSmallerValue: phony NearestSmallerValue.exe
+
 build NestedRangeCheck: phony NestedRangeCheck.exe
 
 build NestedRangeCount: phony NestedRangeCount.exe
@@ -564,7 +599,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe
 
 # =============================================================================
 # Built-in targets
