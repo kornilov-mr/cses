@@ -437,6 +437,39 @@ build NearestSmallerValue.exe: CXX_EXECUTABLE_LINKER__NearestSmallerValue_Debug 
   TARGET_PDB = NearestSmallerValue.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target ConcertTicket
+
+
+#############################################
+# Order-only phony target for ConcertTicket
+
+build cmake_object_order_depends_target_ConcertTicket: phony || CMakeFiles/ConcertTicket.dir
+
+build CMakeFiles/ConcertTicket.dir/sorting/ConcertTicket.cpp.obj: CXX_COMPILER__ConcertTicket_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/ConcertTicket.cpp || cmake_object_order_depends_target_ConcertTicket
+  DEP_FILE = CMakeFiles\ConcertTicket.dir\sorting\ConcertTicket.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ConcertTicket.dir
+  OBJECT_FILE_DIR = CMakeFiles\ConcertTicket.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ConcertTicket
+
+
+#############################################
+# Link the executable ConcertTicket.exe
+
+build ConcertTicket.exe: CXX_EXECUTABLE_LINKER__ConcertTicket_Debug CMakeFiles/ConcertTicket.dir/sorting/ConcertTicket.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ConcertTicket.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ConcertTicket.exe
+  TARGET_IMPLIB = libConcertTicket.dll.a
+  TARGET_PDB = ConcertTicket.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target PointLocationTest
 
 
@@ -561,6 +594,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build ConcertTicket: phony ConcertTicket.exe
+
 build FactoryMachines: phony FactoryMachines.exe
 
 build LineSegmentIntersection: phony LineSegmentIntersection.exe
@@ -599,7 +634,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe
 
 # =============================================================================
 # Built-in targets
