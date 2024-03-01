@@ -470,6 +470,39 @@ build ConcertTicket.exe: CXX_EXECUTABLE_LINKER__ConcertTicket_Debug CMakeFiles/C
   TARGET_PDB = ConcertTicket.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target RestaurantCustomers
+
+
+#############################################
+# Order-only phony target for RestaurantCustomers
+
+build cmake_object_order_depends_target_RestaurantCustomers: phony || CMakeFiles/RestaurantCustomers.dir
+
+build CMakeFiles/RestaurantCustomers.dir/sorting/RestaurantCustomers.cpp.obj: CXX_COMPILER__RestaurantCustomers_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/RestaurantCustomers.cpp || cmake_object_order_depends_target_RestaurantCustomers
+  DEP_FILE = CMakeFiles\RestaurantCustomers.dir\sorting\RestaurantCustomers.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RestaurantCustomers.dir
+  OBJECT_FILE_DIR = CMakeFiles\RestaurantCustomers.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RestaurantCustomers
+
+
+#############################################
+# Link the executable RestaurantCustomers.exe
+
+build RestaurantCustomers.exe: CXX_EXECUTABLE_LINKER__RestaurantCustomers_Debug CMakeFiles/RestaurantCustomers.dir/sorting/RestaurantCustomers.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RestaurantCustomers.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RestaurantCustomers.exe
+  TARGET_IMPLIB = libRestaurantCustomers.dll.a
+  TARGET_PDB = RestaurantCustomers.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target PointLocationTest
 
 
@@ -612,6 +645,8 @@ build PolygonArea: phony PolygonArea.exe
 
 build ReadingBooks: phony ReadingBooks.exe
 
+build RestaurantCustomers: phony RestaurantCustomers.exe
+
 build RoomAllocation: phony RoomAllocation.exe
 
 build SumOfThreeValues: phony SumOfThreeValues.exe
@@ -634,7 +669,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe
 
 # =============================================================================
 # Built-in targets

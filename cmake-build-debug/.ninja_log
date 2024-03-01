@@ -1,7 +1,7 @@
 # ninja log v5
 1	2374	7303102921215318	CMakeFiles/towers.dir/sorting/towers.cpp.obj	fabc3b918bdaca34
 18	3530	7303101734175740	CMakeFiles/josephesProblem.dir/sorting/NestedRangeCheck.cpp.obj	40686fbf2769434d
-1	391	7309107520114595	build.ninja	bb694314a045c020
+1	391	7309132922632717	build.ninja	bb694314a045c020
 1032	1190	7300561622674898	untitled.exe	edcefa0044ae97f9
 9	3538	7303129604944553	CMakeFiles/josephesProblem.dir/sorting/josephesProblem.cpp.obj	454a8000edbe53c5
 6	169	7305119335707960	josephesProblem.exe	10fc9b95704beb66
@@ -30,17 +30,11 @@
 7	2458	7309090603391756	CMakeFiles/TaskAndDeadlines.dir/sorting/TaskAndDeadlines.cpp.obj	5f5bbcaa54801b33
 2459	2611	7309090604881485	TaskAndDeadlines.exe	c1bcc01fbbd6b782
 7	2351	7309103620338370	CMakeFiles/NearestSmallerValue.dir/sorting/NearestSmallerValue.cpp.obj	2d86abd945c0b801
-1	3632	7309107597437144	CMakeFiles/ConcertTicket.dir/sorting/ConcertTicket.cpp.obj	c4f54b42aff94216
-3633	3789	7309107598976261	ConcertTicket.exe	9d9f817e85376d6c
-11	3285	7309112313661981	CMakeFiles/ConcertTicket.dir/sorting/ConcertTicket.cpp.obj	c4f54b42aff94216
-3286	3472	7309112315495819	ConcertTicket.exe	9d9f817e85376d6c
-8	2717	7309112709491961	CMakeFiles/ConcertTicket.dir/sorting/ConcertTicket.cpp.obj	c4f54b42aff94216
-2718	2858	7309112710875945	ConcertTicket.exe	9d9f817e85376d6c
-8	2924	7309113272611096	CMakeFiles/ConcertTicket.dir/sorting/ConcertTicket.cpp.obj	c4f54b42aff94216
-2925	3066	7309113273987172	ConcertTicket.exe	9d9f817e85376d6c
-6	3544	7309114977051509	CMakeFiles/ConcertTicket.dir/sorting/ConcertTicket.cpp.obj	c4f54b42aff94216
-3545	3773	7309114979290573	ConcertTicket.exe	9d9f817e85376d6c
-9	2975	7309116770489636	CMakeFiles/ConcertTicket.dir/sorting/ConcertTicket.cpp.obj	c4f54b42aff94216
-2976	3166	7309116772351692	ConcertTicket.exe	9d9f817e85376d6c
 9	2735	7309117826788031	CMakeFiles/ConcertTicket.dir/sorting/ConcertTicket.cpp.obj	c4f54b42aff94216
 2736	2880	7309117828199044	ConcertTicket.exe	9d9f817e85376d6c
+1	3216	7309133018639489	CMakeFiles/RestaurantCustomers.dir/sorting/RestaurantCustomers.cpp.obj	c83c1f0c9b6c1ff4
+3217	3406	7309133020493842	RestaurantCustomers.exe	303814af3a364f3c
+6	2321	7309134148014158	CMakeFiles/RestaurantCustomers.dir/sorting/RestaurantCustomers.cpp.obj	c83c1f0c9b6c1ff4
+2322	2470	7309134149465244	RestaurantCustomers.exe	303814af3a364f3c
+6	3046	7309140496290966	CMakeFiles/PolygonArea.dir/geometry/PolygonArea.cpp.obj	2266f607d47e6f3b
+3047	3299	7309140498811772	PolygonArea.exe	66baad9f4c63359b
