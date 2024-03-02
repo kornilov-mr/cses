@@ -503,6 +503,39 @@ build RestaurantCustomers.exe: CXX_EXECUTABLE_LINKER__RestaurantCustomers_Debug 
   TARGET_PDB = RestaurantCustomers.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target MovieFestival
+
+
+#############################################
+# Order-only phony target for MovieFestival
+
+build cmake_object_order_depends_target_MovieFestival: phony || CMakeFiles/MovieFestival.dir
+
+build CMakeFiles/MovieFestival.dir/sorting/MovieFestival.cpp.obj: CXX_COMPILER__MovieFestival_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/MovieFestival.cpp || cmake_object_order_depends_target_MovieFestival
+  DEP_FILE = CMakeFiles\MovieFestival.dir\sorting\MovieFestival.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MovieFestival.dir
+  OBJECT_FILE_DIR = CMakeFiles\MovieFestival.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MovieFestival
+
+
+#############################################
+# Link the executable MovieFestival.exe
+
+build MovieFestival.exe: CXX_EXECUTABLE_LINKER__MovieFestival_Debug CMakeFiles/MovieFestival.dir/sorting/MovieFestival.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\MovieFestival.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = MovieFestival.exe
+  TARGET_IMPLIB = libMovieFestival.dll.a
+  TARGET_PDB = MovieFestival.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target PointLocationTest
 
 
@@ -633,6 +666,8 @@ build FactoryMachines: phony FactoryMachines.exe
 
 build LineSegmentIntersection: phony LineSegmentIntersection.exe
 
+build MovieFestival: phony MovieFestival.exe
+
 build NearestSmallerValue: phony NearestSmallerValue.exe
 
 build NestedRangeCheck: phony NestedRangeCheck.exe
@@ -669,7 +704,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe
 
 # =============================================================================
 # Built-in targets
