@@ -536,6 +536,72 @@ build MovieFestival.exe: CXX_EXECUTABLE_LINKER__MovieFestival_Debug CMakeFiles/M
   TARGET_PDB = MovieFestival.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target CollectionNumbers2
+
+
+#############################################
+# Order-only phony target for CollectionNumbers2
+
+build cmake_object_order_depends_target_CollectionNumbers2: phony || CMakeFiles/CollectionNumbers2.dir
+
+build CMakeFiles/CollectionNumbers2.dir/sorting/CollectingNumbers2.cpp.obj: CXX_COMPILER__CollectionNumbers2_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/CollectingNumbers2.cpp || cmake_object_order_depends_target_CollectionNumbers2
+  DEP_FILE = CMakeFiles\CollectionNumbers2.dir\sorting\CollectingNumbers2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CollectionNumbers2.dir
+  OBJECT_FILE_DIR = CMakeFiles\CollectionNumbers2.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CollectionNumbers2
+
+
+#############################################
+# Link the executable CollectionNumbers2.exe
+
+build CollectionNumbers2.exe: CXX_EXECUTABLE_LINKER__CollectionNumbers2_Debug CMakeFiles/CollectionNumbers2.dir/sorting/CollectingNumbers2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CollectionNumbers2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CollectionNumbers2.exe
+  TARGET_IMPLIB = libCollectionNumbers2.dll.a
+  TARGET_PDB = CollectionNumbers2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SubarraySub
+
+
+#############################################
+# Order-only phony target for SubarraySub
+
+build cmake_object_order_depends_target_SubarraySub: phony || CMakeFiles/SubarraySub.dir
+
+build CMakeFiles/SubarraySub.dir/sorting/SubarraySum2.cpp.obj: CXX_COMPILER__SubarraySub_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/SubarraySum2.cpp || cmake_object_order_depends_target_SubarraySub
+  DEP_FILE = CMakeFiles\SubarraySub.dir\sorting\SubarraySum2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SubarraySub.dir
+  OBJECT_FILE_DIR = CMakeFiles\SubarraySub.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SubarraySub
+
+
+#############################################
+# Link the executable SubarraySub.exe
+
+build SubarraySub.exe: CXX_EXECUTABLE_LINKER__SubarraySub_Debug CMakeFiles/SubarraySub.dir/sorting/SubarraySum2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SubarraySub.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SubarraySub.exe
+  TARGET_IMPLIB = libSubarraySub.dll.a
+  TARGET_PDB = SubarraySub.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target PointLocationTest
 
 
@@ -660,6 +726,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build CollectionNumbers2: phony CollectionNumbers2.exe
+
 build ConcertTicket: phony ConcertTicket.exe
 
 build FactoryMachines: phony FactoryMachines.exe
@@ -684,6 +752,8 @@ build RestaurantCustomers: phony RestaurantCustomers.exe
 
 build RoomAllocation: phony RoomAllocation.exe
 
+build SubarraySub: phony SubarraySub.exe
+
 build SumOfThreeValues: phony SumOfThreeValues.exe
 
 build TaskAndDeadlines: phony TaskAndDeadlines.exe
@@ -704,7 +774,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe
 
 # =============================================================================
 # Built-in targets

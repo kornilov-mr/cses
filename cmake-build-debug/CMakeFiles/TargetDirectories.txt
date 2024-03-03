@@ -12,6 +12,9 @@ C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/TaskAndDeadlin
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/NearestSmallerValue.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/ConcertTicket.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/RestaurantCustomers.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/MovieFestival.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/CollectionNumbers2.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/SubarraySub.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/PointLocationTest.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/LineSegmentIntersection.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/PolygonArea.dir

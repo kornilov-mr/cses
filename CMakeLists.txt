@@ -18,6 +18,8 @@ add_executable(NearestSmallerValue  sorting/NearestSmallerValue.cpp)
 add_executable(ConcertTicket  sorting/ConcertTicket.cpp)
 add_executable(RestaurantCustomers  sorting/RestaurantCustomers.cpp)
 add_executable(MovieFestival sorting/MovieFestival.cpp)
+add_executable(CollectionNumbers2 sorting/CollectingNumbers2.cpp)
+add_executable(SubarraySub sorting/SubarraySum2.cpp)
 
 add_executable(PointLocationTest  geometry/PointLocationTest.cpp)
 add_executable(LineSegmentIntersection  geometry/LineSegmentIntersection.cpp)
