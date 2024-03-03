@@ -602,6 +602,39 @@ build SubarraySub.exe: CXX_EXECUTABLE_LINKER__SubarraySub_Debug CMakeFiles/Subar
   TARGET_PDB = SubarraySub.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target SubarrayDivisibilty
+
+
+#############################################
+# Order-only phony target for SubarrayDivisibilty
+
+build cmake_object_order_depends_target_SubarrayDivisibilty: phony || CMakeFiles/SubarrayDivisibilty.dir
+
+build CMakeFiles/SubarrayDivisibilty.dir/sorting/SubarrayDivisibilty.cpp.obj: CXX_COMPILER__SubarrayDivisibilty_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/SubarrayDivisibilty.cpp || cmake_object_order_depends_target_SubarrayDivisibilty
+  DEP_FILE = CMakeFiles\SubarrayDivisibilty.dir\sorting\SubarrayDivisibilty.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SubarrayDivisibilty.dir
+  OBJECT_FILE_DIR = CMakeFiles\SubarrayDivisibilty.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SubarrayDivisibilty
+
+
+#############################################
+# Link the executable SubarrayDivisibilty.exe
+
+build SubarrayDivisibilty.exe: CXX_EXECUTABLE_LINKER__SubarrayDivisibilty_Debug CMakeFiles/SubarrayDivisibilty.dir/sorting/SubarrayDivisibilty.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SubarrayDivisibilty.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SubarrayDivisibilty.exe
+  TARGET_IMPLIB = libSubarrayDivisibilty.dll.a
+  TARGET_PDB = SubarrayDivisibilty.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target PointLocationTest
 
 
@@ -752,6 +785,8 @@ build RestaurantCustomers: phony RestaurantCustomers.exe
 
 build RoomAllocation: phony RoomAllocation.exe
 
+build SubarrayDivisibilty: phony SubarrayDivisibilty.exe
+
 build SubarraySub: phony SubarraySub.exe
 
 build SumOfThreeValues: phony SumOfThreeValues.exe
@@ -774,7 +809,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe
 
 # =============================================================================
 # Built-in targets

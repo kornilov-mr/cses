@@ -1,5 +1,5 @@
 # ninja log v5
-1	597	7311635901311513	build.ninja	bb694314a045c020
+1	597	7311645150449207	build.ninja	bb694314a045c020
 18	3530	7303101734175740	CMakeFiles/josephesProblem.dir/sorting/NestedRangeCheck.cpp.obj	40686fbf2769434d
 1	2374	7303102921215318	CMakeFiles/towers.dir/sorting/towers.cpp.obj	fabc3b918bdaca34
 9	3538	7303129604944553	CMakeFiles/josephesProblem.dir/sorting/josephesProblem.cpp.obj	454a8000edbe53c5
@@ -33,14 +33,14 @@
 2459	2611	7309090604881485	TaskAndDeadlines.exe	c1bcc01fbbd6b782
 7	2351	7309103620338370	CMakeFiles/NearestSmallerValue.dir/sorting/NearestSmallerValue.cpp.obj	2d86abd945c0b801
 9	2979	7311061007545968	CMakeFiles/ConcertTicket.dir/sorting/ConcertTicket.cpp.obj	c4f54b42aff94216
+2655	2815	7311640863226353	SubarraySub.exe	4c384dbe0c85f528
 2980	3321	7311061010939637	ConcertTicket.exe	9d9f817e85376d6c
 2322	2470	7309134149465244	RestaurantCustomers.exe	303814af3a364f3c
 5	2668	7311625095892074	CMakeFiles/CollectionNumbers2.dir/sorting/CollectingNumbers2.cpp.obj	80effd6165b52188
-0	3363	7311636038964455	CMakeFiles/SubarraySub.dir/sorting/SubarraySum2.cpp.obj	72c2c72416a7dc8a
-3364	3557	7311636040751824	SubarraySub.exe	4c384dbe0c85f528
-5	2694	7311636344656823	CMakeFiles/SubarraySub.dir/sorting/SubarraySum2.cpp.obj	72c2c72416a7dc8a
-2695	2850	7311636346191307	SubarraySub.exe	4c384dbe0c85f528
-5	2670	7311637503282802	CMakeFiles/SubarraySub.dir/sorting/SubarraySum2.cpp.obj	72c2c72416a7dc8a
-2670	2827	7311637504810876	SubarraySub.exe	4c384dbe0c85f528
 5	2655	7311640861676176	CMakeFiles/SubarraySub.dir/sorting/SubarraySum2.cpp.obj	72c2c72416a7dc8a
-2655	2815	7311640863226353	SubarraySub.exe	4c384dbe0c85f528
+1	2977	7311646082565743	CMakeFiles/SubarrayDivisibilty.dir/sorting/SubarrayDivisibilty.cpp.obj	9c188ba9753342f3
+2978	3133	7311646084094646	SubarrayDivisibilty.exe	e8121a2cdcc6394f
+5	2645	7311646390780000	CMakeFiles/SubarrayDivisibilty.dir/sorting/SubarrayDivisibilty.cpp.obj	9c188ba9753342f3
+2645	2799	7311646392295862	SubarrayDivisibilty.exe	e8121a2cdcc6394f
+7	2819	7311647597750932	CMakeFiles/SubarrayDivisibilty.dir/sorting/SubarrayDivisibilty.cpp.obj	9c188ba9753342f3
+2820	3015	7311647599681447	SubarrayDivisibilty.exe	e8121a2cdcc6394f
