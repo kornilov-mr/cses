@@ -767,6 +767,39 @@ build MovieFestival2.exe: CXX_EXECUTABLE_LINKER__MovieFestival2_Debug CMakeFiles
   TARGET_PDB = MovieFestival2.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target MaximumSubarraySum2
+
+
+#############################################
+# Order-only phony target for MaximumSubarraySum2
+
+build cmake_object_order_depends_target_MaximumSubarraySum2: phony || CMakeFiles/MaximumSubarraySum2.dir
+
+build CMakeFiles/MaximumSubarraySum2.dir/sorting/MaximumSubarraySum2.cpp.obj: CXX_COMPILER__MaximumSubarraySum2_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/MaximumSubarraySum2.cpp || cmake_object_order_depends_target_MaximumSubarraySum2
+  DEP_FILE = CMakeFiles\MaximumSubarraySum2.dir\sorting\MaximumSubarraySum2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MaximumSubarraySum2.dir
+  OBJECT_FILE_DIR = CMakeFiles\MaximumSubarraySum2.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MaximumSubarraySum2
+
+
+#############################################
+# Link the executable MaximumSubarraySum2.exe
+
+build MaximumSubarraySum2.exe: CXX_EXECUTABLE_LINKER__MaximumSubarraySum2_Debug CMakeFiles/MaximumSubarraySum2.dir/sorting/MaximumSubarraySum2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\MaximumSubarraySum2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = MaximumSubarraySum2.exe
+  TARGET_IMPLIB = libMaximumSubarraySum2.dll.a
+  TARGET_PDB = MaximumSubarraySum2.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target PointLocationTest
 
 
@@ -899,6 +932,8 @@ build FactoryMachines: phony FactoryMachines.exe
 
 build LineSegmentIntersection: phony LineSegmentIntersection.exe
 
+build MaximumSubarraySum2: phony MaximumSubarraySum2.exe
+
 build MovieFestival: phony MovieFestival.exe
 
 build MovieFestival2: phony MovieFestival2.exe
@@ -949,7 +984,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe
 
 # =============================================================================
 # Built-in targets
