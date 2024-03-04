@@ -17,6 +17,7 @@ C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/CollectionNumb
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/SubarraySub.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/SubarrayDivisibilty.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/SubarrayDistinctValues.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/SlidingWindowMedian.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/PointLocationTest.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/LineSegmentIntersection.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/PolygonArea.dir

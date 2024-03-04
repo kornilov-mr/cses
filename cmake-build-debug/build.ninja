@@ -668,6 +668,39 @@ build SubarrayDistinctValues.exe: CXX_EXECUTABLE_LINKER__SubarrayDistinctValues_
   TARGET_PDB = SubarrayDistinctValues.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target SlidingWindowMedian
+
+
+#############################################
+# Order-only phony target for SlidingWindowMedian
+
+build cmake_object_order_depends_target_SlidingWindowMedian: phony || CMakeFiles/SlidingWindowMedian.dir
+
+build CMakeFiles/SlidingWindowMedian.dir/sorting/SlidingWindowMedian.cpp.obj: CXX_COMPILER__SlidingWindowMedian_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/SlidingWindowMedian.cpp || cmake_object_order_depends_target_SlidingWindowMedian
+  DEP_FILE = CMakeFiles\SlidingWindowMedian.dir\sorting\SlidingWindowMedian.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SlidingWindowMedian.dir
+  OBJECT_FILE_DIR = CMakeFiles\SlidingWindowMedian.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SlidingWindowMedian
+
+
+#############################################
+# Link the executable SlidingWindowMedian.exe
+
+build SlidingWindowMedian.exe: CXX_EXECUTABLE_LINKER__SlidingWindowMedian_Debug CMakeFiles/SlidingWindowMedian.dir/sorting/SlidingWindowMedian.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SlidingWindowMedian.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SlidingWindowMedian.exe
+  TARGET_IMPLIB = libSlidingWindowMedian.dll.a
+  TARGET_PDB = SlidingWindowMedian.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target PointLocationTest
 
 
@@ -818,6 +851,8 @@ build RestaurantCustomers: phony RestaurantCustomers.exe
 
 build RoomAllocation: phony RoomAllocation.exe
 
+build SlidingWindowMedian: phony SlidingWindowMedian.exe
+
 build SubarrayDistinctValues: phony SubarrayDistinctValues.exe
 
 build SubarrayDivisibilty: phony SubarrayDivisibilty.exe
@@ -844,7 +879,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe
 
 # =============================================================================
 # Built-in targets
