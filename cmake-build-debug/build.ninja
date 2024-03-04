@@ -701,6 +701,72 @@ build SlidingWindowMedian.exe: CXX_EXECUTABLE_LINKER__SlidingWindowMedian_Debug 
   TARGET_PDB = SlidingWindowMedian.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target SlidingWindowCost
+
+
+#############################################
+# Order-only phony target for SlidingWindowCost
+
+build cmake_object_order_depends_target_SlidingWindowCost: phony || CMakeFiles/SlidingWindowCost.dir
+
+build CMakeFiles/SlidingWindowCost.dir/sorting/SlidingWindowCost.cpp.obj: CXX_COMPILER__SlidingWindowCost_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/SlidingWindowCost.cpp || cmake_object_order_depends_target_SlidingWindowCost
+  DEP_FILE = CMakeFiles\SlidingWindowCost.dir\sorting\SlidingWindowCost.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SlidingWindowCost.dir
+  OBJECT_FILE_DIR = CMakeFiles\SlidingWindowCost.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SlidingWindowCost
+
+
+#############################################
+# Link the executable SlidingWindowCost.exe
+
+build SlidingWindowCost.exe: CXX_EXECUTABLE_LINKER__SlidingWindowCost_Debug CMakeFiles/SlidingWindowCost.dir/sorting/SlidingWindowCost.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SlidingWindowCost.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SlidingWindowCost.exe
+  TARGET_IMPLIB = libSlidingWindowCost.dll.a
+  TARGET_PDB = SlidingWindowCost.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MovieFestival2
+
+
+#############################################
+# Order-only phony target for MovieFestival2
+
+build cmake_object_order_depends_target_MovieFestival2: phony || CMakeFiles/MovieFestival2.dir
+
+build CMakeFiles/MovieFestival2.dir/sorting/MovieFestival2.cpp.obj: CXX_COMPILER__MovieFestival2_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/sorting/MovieFestival2.cpp || cmake_object_order_depends_target_MovieFestival2
+  DEP_FILE = CMakeFiles\MovieFestival2.dir\sorting\MovieFestival2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MovieFestival2.dir
+  OBJECT_FILE_DIR = CMakeFiles\MovieFestival2.dir\sorting
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MovieFestival2
+
+
+#############################################
+# Link the executable MovieFestival2.exe
+
+build MovieFestival2.exe: CXX_EXECUTABLE_LINKER__MovieFestival2_Debug CMakeFiles/MovieFestival2.dir/sorting/MovieFestival2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\MovieFestival2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = MovieFestival2.exe
+  TARGET_IMPLIB = libMovieFestival2.dll.a
+  TARGET_PDB = MovieFestival2.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target PointLocationTest
 
 
@@ -835,6 +901,8 @@ build LineSegmentIntersection: phony LineSegmentIntersection.exe
 
 build MovieFestival: phony MovieFestival.exe
 
+build MovieFestival2: phony MovieFestival2.exe
+
 build NearestSmallerValue: phony NearestSmallerValue.exe
 
 build NestedRangeCheck: phony NestedRangeCheck.exe
@@ -850,6 +918,8 @@ build ReadingBooks: phony ReadingBooks.exe
 build RestaurantCustomers: phony RestaurantCustomers.exe
 
 build RoomAllocation: phony RoomAllocation.exe
+
+build SlidingWindowCost: phony SlidingWindowCost.exe
 
 build SlidingWindowMedian: phony SlidingWindowMedian.exe
 
@@ -879,7 +949,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe
 
 # =============================================================================
 # Built-in targets

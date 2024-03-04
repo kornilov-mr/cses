@@ -18,6 +18,8 @@ C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/SubarraySub.di
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/SubarrayDivisibilty.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/SubarrayDistinctValues.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/SlidingWindowMedian.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/SlidingWindowCost.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/MovieFestival2.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/PointLocationTest.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/LineSegmentIntersection.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/PolygonArea.dir
