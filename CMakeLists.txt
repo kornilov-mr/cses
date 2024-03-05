@@ -27,6 +27,7 @@ add_executable(SlidingWindowCost sorting/SlidingWindowCost.cpp)
 add_executable(MovieFestival2 sorting/MovieFestival2.cpp)
 add_executable(MaximumSubarraySum2 sorting/MaximumSubarraySum2.cpp)
 add_executable(ArrayDivision sorting/arrayDivision.cpp)
+add_executable(SumOfFourValue sorting/SumOfFourValue.cpp)
 
 add_executable(PointLocationTest  geometry/PointLocationTest.cpp)
 add_executable(LineSegmentIntersection  geometry/LineSegmentIntersection.cpp)
