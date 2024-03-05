@@ -964,6 +964,72 @@ build PolygonArea.exe: CXX_EXECUTABLE_LINKER__PolygonArea_Debug CMakeFiles/Polyg
   TARGET_IMPLIB = libPolygonArea.dll.a
   TARGET_PDB = PolygonArea.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target MinimizingCoins
+
+
+#############################################
+# Order-only phony target for MinimizingCoins
+
+build cmake_object_order_depends_target_MinimizingCoins: phony || CMakeFiles/MinimizingCoins.dir
+
+build CMakeFiles/MinimizingCoins.dir/DynamicProgramming/MInimizingCoins.cpp.obj: CXX_COMPILER__MinimizingCoins_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/DynamicProgramming/MInimizingCoins.cpp || cmake_object_order_depends_target_MinimizingCoins
+  DEP_FILE = CMakeFiles\MinimizingCoins.dir\DynamicProgramming\MInimizingCoins.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MinimizingCoins.dir
+  OBJECT_FILE_DIR = CMakeFiles\MinimizingCoins.dir\DynamicProgramming
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MinimizingCoins
+
+
+#############################################
+# Link the executable MinimizingCoins.exe
+
+build MinimizingCoins.exe: CXX_EXECUTABLE_LINKER__MinimizingCoins_Debug CMakeFiles/MinimizingCoins.dir/DynamicProgramming/MInimizingCoins.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\MinimizingCoins.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = MinimizingCoins.exe
+  TARGET_IMPLIB = libMinimizingCoins.dll.a
+  TARGET_PDB = MinimizingCoins.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target GridPaths
+
+
+#############################################
+# Order-only phony target for GridPaths
+
+build cmake_object_order_depends_target_GridPaths: phony || CMakeFiles/GridPaths.dir
+
+build CMakeFiles/GridPaths.dir/DynamicProgramming/GridPaths.cpp.obj: CXX_COMPILER__GridPaths_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/DynamicProgramming/GridPaths.cpp || cmake_object_order_depends_target_GridPaths
+  DEP_FILE = CMakeFiles\GridPaths.dir\DynamicProgramming\GridPaths.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\GridPaths.dir
+  OBJECT_FILE_DIR = CMakeFiles\GridPaths.dir\DynamicProgramming
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target GridPaths
+
+
+#############################################
+# Link the executable GridPaths.exe
+
+build GridPaths.exe: CXX_EXECUTABLE_LINKER__GridPaths_Debug CMakeFiles/GridPaths.dir/DynamicProgramming/GridPaths.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\GridPaths.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = GridPaths.exe
+  TARGET_IMPLIB = libGridPaths.dll.a
+  TARGET_PDB = GridPaths.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -998,9 +1064,13 @@ build ConcertTicket: phony ConcertTicket.exe
 
 build FactoryMachines: phony FactoryMachines.exe
 
+build GridPaths: phony GridPaths.exe
+
 build LineSegmentIntersection: phony LineSegmentIntersection.exe
 
 build MaximumSubarraySum2: phony MaximumSubarraySum2.exe
+
+build MinimizingCoins: phony MinimizingCoins.exe
 
 build MovieFestival: phony MovieFestival.exe
 
@@ -1054,7 +1124,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe
 
 # =============================================================================
 # Built-in targets

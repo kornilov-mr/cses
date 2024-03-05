@@ -32,3 +32,6 @@ add_executable(SumOfFourValue sorting/SumOfFourValue.cpp)
 add_executable(PointLocationTest  geometry/PointLocationTest.cpp)
 add_executable(LineSegmentIntersection  geometry/LineSegmentIntersection.cpp)
 add_executable( PolygonArea  geometry/PolygonArea.cpp)
+
+add_executable(MinimizingCoins DynamicProgramming/MInimizingCoins.cpp)
+add_executable(GridPaths DynamicProgramming/GridPaths.cpp)

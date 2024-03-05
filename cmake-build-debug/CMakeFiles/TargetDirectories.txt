@@ -26,5 +26,7 @@ C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/SumOfFourValue
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/PointLocationTest.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/LineSegmentIntersection.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/PolygonArea.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/MinimizingCoins.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/GridPaths.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/rebuild_cache.dir
