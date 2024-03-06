@@ -1,5 +1,5 @@
 # ninja log v5
-1	597	7313510415376476	build.ninja	bb694314a045c020
+1	597	7314281354286678	build.ninja	bb694314a045c020
 18	3530	7303101734175740	CMakeFiles/josephesProblem.dir/sorting/NestedRangeCheck.cpp.obj	40686fbf2769434d
 1	2374	7303102921215318	CMakeFiles/towers.dir/sorting/towers.cpp.obj	fabc3b918bdaca34
 9	3538	7303129604944553	CMakeFiles/josephesProblem.dir/sorting/josephesProblem.cpp.obj	454a8000edbe53c5
@@ -35,6 +35,7 @@
 2740	2922	7306530306729654	LineSegmentIntersection.exe	515ec6a9a04648b2
 7	2458	7309090603391756	CMakeFiles/TaskAndDeadlines.dir/sorting/TaskAndDeadlines.cpp.obj	5f5bbcaa54801b33
 2459	2611	7309090604881485	TaskAndDeadlines.exe	c1bcc01fbbd6b782
+6	3066	7313511367028596	CMakeFiles/GridPaths.dir/DynamicProgramming/GridPaths.cpp.obj	91742180182f30a6
 7	2351	7309103620338370	CMakeFiles/NearestSmallerValue.dir/sorting/NearestSmallerValue.cpp.obj	2d86abd945c0b801
 9	2979	7311061007545968	CMakeFiles/ConcertTicket.dir/sorting/ConcertTicket.cpp.obj	c4f54b42aff94216
 2655	2815	7311640863226353	SubarraySub.exe	4c384dbe0c85f528
@@ -54,7 +55,4 @@
 2921	3076	7313407807865171	SlidingWindowCost.exe	3f277886a6f19f6e
 8	2921	7313407806341227	CMakeFiles/SlidingWindowCost.dir/sorting/SlidingWindowCost.cpp.obj	c40a2f36efa6ed93
 2545	2689	7313426925254010	SumOfFourValue.exe	28898156b21758aa
-1	3324	7313510581605557	CMakeFiles/GridPaths.dir/DynamicProgramming/GridPaths.cpp.obj	91742180182f30a6
-3325	3481	7313510583135822	GridPaths.exe	b065b9e908240c6d
-6	3066	7313511367028596	CMakeFiles/GridPaths.dir/DynamicProgramming/GridPaths.cpp.obj	91742180182f30a6
 3067	3218	7313511368502920	GridPaths.exe	b065b9e908240c6d

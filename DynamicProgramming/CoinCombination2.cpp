@@ -6,7 +6,6 @@ using namespace std;
 #define ll long long
 #define pii pair<int, int>
 #define pdd pair<double, double>
-//#define pdd pair<long double, long double>
 #define pll pair<long long, long long>
 #define vi vector<int>
 #define vll vector<long long>
@@ -42,6 +41,7 @@ string to_lower(string a) { for (int i=0;i<(int)a.size();++i) if (a[i]>='A' && a
 bool prime(ll a) { if (a==1) return 0; for (int i=2;i<=round(sqrt(a));++i) if (a%i==0) return 0; return 1; }
 void yes() { cout<<"YES\n"; }
 void no() { cout<<"NO\n"; }
+const ll mod = 1e9 + 7;
 
 /*  All Required define Pre-Processors and typedef Constants */
 typedef long int int32;
@@ -49,46 +49,27 @@ typedef unsigned long int uint32;
 typedef long long int int64;
 typedef unsigned long long int  uint64;
 
-#include<ext/pb_ds/assoc_container.hpp>
-#include<ext/pb_ds/tree_policy.hpp>
-using namespace __gnu_pbds;
-template <typename T>
-using ordered_set= tree<T,null_type,less<T>,rb_tree_tag, tree_order_statistics_node_update>;
-
 int main(){
-    int n,k;
-    cin>>n>>k;
-    vector<int> numbers(n);
-    ordered_set<pdd> currNumbers;
-
+    int n,x;
+    cin>>n>>x;
+    vector<int> coins(n);
+    ll dp[x+1];
+    dp[0]=1;
+    f(i,1,x+1){
+        dp[i]=0;
+    }
     f(i,0,n){
-        cin>>numbers[i];
+        cin>>coins[i];
     }
-    ll sum=0;
-    f(i,0,k){
-        currNumbers.insert(make_pair(numbers[i],i));
+    f(i,0,n){
+        f(j,1,x+1){
+            if(coins[i]<=j){
+                if(dp[j-coins[i]]!=0){
+                    dp[j]+=dp[j-coins[i]];
+                    dp[j]%=mod;
+                }
+            }
+        }
     }
-    int currMedian =currNumbers.find_by_order((k-1)/2)->first;
-    ll currCost = 0;
-    for(ordered_set<pdd>::iterator it = currNumbers.begin(); it!=currNumbers.end();it++){
-        currCost+= abs(it->first-currMedian);
-    }
-    cout<<currCost<<" ";
-    int prefMedian;
-    f(i,k,n){
-        currCost-=abs(numbers[i-k]-currMedian);
-        currCost+=abs(numbers[i]-currMedian);
-        currNumbers.erase(make_pair(numbers[i-k],i-k));
-        currNumbers.insert(make_pair(numbers[i],i));
-        prefMedian=currMedian;
-        currMedian=currNumbers.find_by_order((k-1)/2)->first;
-        int elementLessCountLast= currNumbers.order_of_key(make_pair(prefMedian+0.00001*(currMedian-prefMedian),0));
-
-        currCost-=(k-elementLessCountLast)*(currMedian-prefMedian);
-        currCost+=(elementLessCountLast)*(currMedian-prefMedian);
-        cout<<currCost<<" ";
-
-    }
-
-
+    cout<<dp[x];
 }

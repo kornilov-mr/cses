@@ -35,3 +35,4 @@ add_executable( PolygonArea  geometry/PolygonArea.cpp)
 
 add_executable(MinimizingCoins DynamicProgramming/MInimizingCoins.cpp)
 add_executable(GridPaths DynamicProgramming/GridPaths.cpp)
+add_executable(CoinCombination2 DynamicProgramming/CoinCombination2.cpp)

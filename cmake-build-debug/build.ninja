@@ -1030,6 +1030,39 @@ build GridPaths.exe: CXX_EXECUTABLE_LINKER__GridPaths_Debug CMakeFiles/GridPaths
   TARGET_IMPLIB = libGridPaths.dll.a
   TARGET_PDB = GridPaths.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target CoinCombination2
+
+
+#############################################
+# Order-only phony target for CoinCombination2
+
+build cmake_object_order_depends_target_CoinCombination2: phony || CMakeFiles/CoinCombination2.dir
+
+build CMakeFiles/CoinCombination2.dir/DynamicProgramming/CoinCombination2.cpp.obj: CXX_COMPILER__CoinCombination2_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/DynamicProgramming/CoinCombination2.cpp || cmake_object_order_depends_target_CoinCombination2
+  DEP_FILE = CMakeFiles\CoinCombination2.dir\DynamicProgramming\CoinCombination2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CoinCombination2.dir
+  OBJECT_FILE_DIR = CMakeFiles\CoinCombination2.dir\DynamicProgramming
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CoinCombination2
+
+
+#############################################
+# Link the executable CoinCombination2.exe
+
+build CoinCombination2.exe: CXX_EXECUTABLE_LINKER__CoinCombination2_Debug CMakeFiles/CoinCombination2.dir/DynamicProgramming/CoinCombination2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CoinCombination2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CoinCombination2.exe
+  TARGET_IMPLIB = libCoinCombination2.dll.a
+  TARGET_PDB = CoinCombination2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1057,6 +1090,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Target aliases.
 
 build ArrayDivision: phony ArrayDivision.exe
+
+build CoinCombination2: phony CoinCombination2.exe
 
 build CollectionNumbers2: phony CollectionNumbers2.exe
 
@@ -1124,7 +1159,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe
 
 # =============================================================================
 # Built-in targets
