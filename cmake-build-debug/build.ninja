@@ -1063,6 +1063,105 @@ build CoinCombination2.exe: CXX_EXECUTABLE_LINKER__CoinCombination2_Debug CMakeF
   TARGET_IMPLIB = libCoinCombination2.dll.a
   TARGET_PDB = CoinCombination2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target CountingTowers
+
+
+#############################################
+# Order-only phony target for CountingTowers
+
+build cmake_object_order_depends_target_CountingTowers: phony || CMakeFiles/CountingTowers.dir
+
+build CMakeFiles/CountingTowers.dir/DynamicProgramming/CountingTowers.cpp.obj: CXX_COMPILER__CountingTowers_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/DynamicProgramming/CountingTowers.cpp || cmake_object_order_depends_target_CountingTowers
+  DEP_FILE = CMakeFiles\CountingTowers.dir\DynamicProgramming\CountingTowers.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CountingTowers.dir
+  OBJECT_FILE_DIR = CMakeFiles\CountingTowers.dir\DynamicProgramming
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CountingTowers
+
+
+#############################################
+# Link the executable CountingTowers.exe
+
+build CountingTowers.exe: CXX_EXECUTABLE_LINKER__CountingTowers_Debug CMakeFiles/CountingTowers.dir/DynamicProgramming/CountingTowers.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CountingTowers.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CountingTowers.exe
+  TARGET_IMPLIB = libCountingTowers.dll.a
+  TARGET_PDB = CountingTowers.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ArrayDescription
+
+
+#############################################
+# Order-only phony target for ArrayDescription
+
+build cmake_object_order_depends_target_ArrayDescription: phony || CMakeFiles/ArrayDescription.dir
+
+build CMakeFiles/ArrayDescription.dir/DynamicProgramming/ArrayDescription.cpp.obj: CXX_COMPILER__ArrayDescription_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/DynamicProgramming/ArrayDescription.cpp || cmake_object_order_depends_target_ArrayDescription
+  DEP_FILE = CMakeFiles\ArrayDescription.dir\DynamicProgramming\ArrayDescription.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ArrayDescription.dir
+  OBJECT_FILE_DIR = CMakeFiles\ArrayDescription.dir\DynamicProgramming
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ArrayDescription
+
+
+#############################################
+# Link the executable ArrayDescription.exe
+
+build ArrayDescription.exe: CXX_EXECUTABLE_LINKER__ArrayDescription_Debug CMakeFiles/ArrayDescription.dir/DynamicProgramming/ArrayDescription.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ArrayDescription.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ArrayDescription.exe
+  TARGET_IMPLIB = libArrayDescription.dll.a
+  TARGET_PDB = ArrayDescription.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BookShop
+
+
+#############################################
+# Order-only phony target for BookShop
+
+build cmake_object_order_depends_target_BookShop: phony || CMakeFiles/BookShop.dir
+
+build CMakeFiles/BookShop.dir/DynamicProgramming/BookShop.cpp.obj: CXX_COMPILER__BookShop_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/DynamicProgramming/BookShop.cpp || cmake_object_order_depends_target_BookShop
+  DEP_FILE = CMakeFiles\BookShop.dir\DynamicProgramming\BookShop.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BookShop.dir
+  OBJECT_FILE_DIR = CMakeFiles\BookShop.dir\DynamicProgramming
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BookShop
+
+
+#############################################
+# Link the executable BookShop.exe
+
+build BookShop.exe: CXX_EXECUTABLE_LINKER__BookShop_Debug CMakeFiles/BookShop.dir/DynamicProgramming/BookShop.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BookShop.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BookShop.exe
+  TARGET_IMPLIB = libBookShop.dll.a
+  TARGET_PDB = BookShop.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1089,13 +1188,19 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build ArrayDescription: phony ArrayDescription.exe
+
 build ArrayDivision: phony ArrayDivision.exe
+
+build BookShop: phony BookShop.exe
 
 build CoinCombination2: phony CoinCombination2.exe
 
 build CollectionNumbers2: phony CollectionNumbers2.exe
 
 build ConcertTicket: phony ConcertTicket.exe
+
+build CountingTowers: phony CountingTowers.exe
 
 build FactoryMachines: phony FactoryMachines.exe
 
@@ -1159,7 +1264,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe BookShop.exe
 
 # =============================================================================
 # Built-in targets
