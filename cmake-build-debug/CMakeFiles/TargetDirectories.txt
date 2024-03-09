@@ -33,5 +33,7 @@ C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/CountingTowers
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/ArrayDescription.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/MoneySums.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/BookShop.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/EditDistance.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/RectangleCutting.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1195,6 +1195,72 @@ build BookShop.exe: CXX_EXECUTABLE_LINKER__BookShop_Debug CMakeFiles/BookShop.di
   TARGET_IMPLIB = libBookShop.dll.a
   TARGET_PDB = BookShop.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target EditDistance
+
+
+#############################################
+# Order-only phony target for EditDistance
+
+build cmake_object_order_depends_target_EditDistance: phony || CMakeFiles/EditDistance.dir
+
+build CMakeFiles/EditDistance.dir/DynamicProgramming/EditDistance.cpp.obj: CXX_COMPILER__EditDistance_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/DynamicProgramming/EditDistance.cpp || cmake_object_order_depends_target_EditDistance
+  DEP_FILE = CMakeFiles\EditDistance.dir\DynamicProgramming\EditDistance.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\EditDistance.dir
+  OBJECT_FILE_DIR = CMakeFiles\EditDistance.dir\DynamicProgramming
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EditDistance
+
+
+#############################################
+# Link the executable EditDistance.exe
+
+build EditDistance.exe: CXX_EXECUTABLE_LINKER__EditDistance_Debug CMakeFiles/EditDistance.dir/DynamicProgramming/EditDistance.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\EditDistance.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = EditDistance.exe
+  TARGET_IMPLIB = libEditDistance.dll.a
+  TARGET_PDB = EditDistance.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RectangleCutting
+
+
+#############################################
+# Order-only phony target for RectangleCutting
+
+build cmake_object_order_depends_target_RectangleCutting: phony || CMakeFiles/RectangleCutting.dir
+
+build CMakeFiles/RectangleCutting.dir/DynamicProgramming/RectangleCutting.cpp.obj: CXX_COMPILER__RectangleCutting_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/DynamicProgramming/RectangleCutting.cpp || cmake_object_order_depends_target_RectangleCutting
+  DEP_FILE = CMakeFiles\RectangleCutting.dir\DynamicProgramming\RectangleCutting.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RectangleCutting.dir
+  OBJECT_FILE_DIR = CMakeFiles\RectangleCutting.dir\DynamicProgramming
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RectangleCutting
+
+
+#############################################
+# Link the executable RectangleCutting.exe
+
+build RectangleCutting.exe: CXX_EXECUTABLE_LINKER__RectangleCutting_Debug CMakeFiles/RectangleCutting.dir/DynamicProgramming/RectangleCutting.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RectangleCutting.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RectangleCutting.exe
+  TARGET_IMPLIB = libRectangleCutting.dll.a
+  TARGET_PDB = RectangleCutting.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1235,6 +1301,8 @@ build ConcertTicket: phony ConcertTicket.exe
 
 build CountingTowers: phony CountingTowers.exe
 
+build EditDistance: phony EditDistance.exe
+
 build FactoryMachines: phony FactoryMachines.exe
 
 build GridPaths: phony GridPaths.exe
@@ -1262,6 +1330,8 @@ build PointLocationTest: phony PointLocationTest.exe
 build PolygonArea: phony PolygonArea.exe
 
 build ReadingBooks: phony ReadingBooks.exe
+
+build RectangleCutting: phony RectangleCutting.exe
 
 build RestaurantCustomers: phony RestaurantCustomers.exe
 
@@ -1299,7 +1369,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe
 
 # =============================================================================
 # Built-in targets
