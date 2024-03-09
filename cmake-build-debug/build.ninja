@@ -1130,6 +1130,39 @@ build ArrayDescription.exe: CXX_EXECUTABLE_LINKER__ArrayDescription_Debug CMakeF
   TARGET_PDB = ArrayDescription.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target MoneySums
+
+
+#############################################
+# Order-only phony target for MoneySums
+
+build cmake_object_order_depends_target_MoneySums: phony || CMakeFiles/MoneySums.dir
+
+build CMakeFiles/MoneySums.dir/DynamicProgramming/MoneySums.cpp.obj: CXX_COMPILER__MoneySums_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/DynamicProgramming/MoneySums.cpp || cmake_object_order_depends_target_MoneySums
+  DEP_FILE = CMakeFiles\MoneySums.dir\DynamicProgramming\MoneySums.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MoneySums.dir
+  OBJECT_FILE_DIR = CMakeFiles\MoneySums.dir\DynamicProgramming
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MoneySums
+
+
+#############################################
+# Link the executable MoneySums.exe
+
+build MoneySums.exe: CXX_EXECUTABLE_LINKER__MoneySums_Debug CMakeFiles/MoneySums.dir/DynamicProgramming/MoneySums.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\MoneySums.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = MoneySums.exe
+  TARGET_IMPLIB = libMoneySums.dll.a
+  TARGET_PDB = MoneySums.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target BookShop
 
 
@@ -1212,6 +1245,8 @@ build MaximumSubarraySum2: phony MaximumSubarraySum2.exe
 
 build MinimizingCoins: phony MinimizingCoins.exe
 
+build MoneySums: phony MoneySums.exe
+
 build MovieFestival: phony MovieFestival.exe
 
 build MovieFestival2: phony MovieFestival2.exe
@@ -1264,7 +1299,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe BookShop.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe
 
 # =============================================================================
 # Built-in targets
