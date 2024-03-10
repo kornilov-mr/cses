@@ -1261,6 +1261,72 @@ build RectangleCutting.exe: CXX_EXECUTABLE_LINKER__RectangleCutting_Debug CMakeF
   TARGET_IMPLIB = libRectangleCutting.dll.a
   TARGET_PDB = RectangleCutting.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target TwoSets
+
+
+#############################################
+# Order-only phony target for TwoSets
+
+build cmake_object_order_depends_target_TwoSets: phony || CMakeFiles/TwoSets.dir
+
+build CMakeFiles/TwoSets.dir/DynamicProgramming/TwoSets2.cpp.obj: CXX_COMPILER__TwoSets_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/DynamicProgramming/TwoSets2.cpp || cmake_object_order_depends_target_TwoSets
+  DEP_FILE = CMakeFiles\TwoSets.dir\DynamicProgramming\TwoSets2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TwoSets.dir
+  OBJECT_FILE_DIR = CMakeFiles\TwoSets.dir\DynamicProgramming
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TwoSets
+
+
+#############################################
+# Link the executable TwoSets.exe
+
+build TwoSets.exe: CXX_EXECUTABLE_LINKER__TwoSets_Debug CMakeFiles/TwoSets.dir/DynamicProgramming/TwoSets2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\TwoSets.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = TwoSets.exe
+  TARGET_IMPLIB = libTwoSets.dll.a
+  TARGET_PDB = TwoSets.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target IncreasingSubsequence
+
+
+#############################################
+# Order-only phony target for IncreasingSubsequence
+
+build cmake_object_order_depends_target_IncreasingSubsequence: phony || CMakeFiles/IncreasingSubsequence.dir
+
+build CMakeFiles/IncreasingSubsequence.dir/DynamicProgramming/IncreasingSubsequence.cpp.obj: CXX_COMPILER__IncreasingSubsequence_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/DynamicProgramming/IncreasingSubsequence.cpp || cmake_object_order_depends_target_IncreasingSubsequence
+  DEP_FILE = CMakeFiles\IncreasingSubsequence.dir\DynamicProgramming\IncreasingSubsequence.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\IncreasingSubsequence.dir
+  OBJECT_FILE_DIR = CMakeFiles\IncreasingSubsequence.dir\DynamicProgramming
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target IncreasingSubsequence
+
+
+#############################################
+# Link the executable IncreasingSubsequence.exe
+
+build IncreasingSubsequence.exe: CXX_EXECUTABLE_LINKER__IncreasingSubsequence_Debug CMakeFiles/IncreasingSubsequence.dir/DynamicProgramming/IncreasingSubsequence.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\IncreasingSubsequence.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = IncreasingSubsequence.exe
+  TARGET_IMPLIB = libIncreasingSubsequence.dll.a
+  TARGET_PDB = IncreasingSubsequence.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1306,6 +1372,8 @@ build EditDistance: phony EditDistance.exe
 build FactoryMachines: phony FactoryMachines.exe
 
 build GridPaths: phony GridPaths.exe
+
+build IncreasingSubsequence: phony IncreasingSubsequence.exe
 
 build LineSegmentIntersection: phony LineSegmentIntersection.exe
 
@@ -1353,6 +1421,8 @@ build SumOfThreeValues: phony SumOfThreeValues.exe
 
 build TaskAndDeadlines: phony TaskAndDeadlines.exe
 
+build TwoSets: phony TwoSets.exe
+
 build josephesProblem: phony josephesProblem.exe
 
 build josephesProblemEasy: phony josephesProblemEasy.exe
@@ -1369,7 +1439,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe TwoSets.exe IncreasingSubsequence.exe
 
 # =============================================================================
 # Built-in targets
