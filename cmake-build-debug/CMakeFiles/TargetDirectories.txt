@@ -37,5 +37,6 @@ C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/EditDistance.d
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/RectangleCutting.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/TwoSets.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/IncreasingSubsequence.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/Projects.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/rebuild_cache.dir

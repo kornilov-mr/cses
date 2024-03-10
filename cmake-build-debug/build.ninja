@@ -1327,6 +1327,39 @@ build IncreasingSubsequence.exe: CXX_EXECUTABLE_LINKER__IncreasingSubsequence_De
   TARGET_IMPLIB = libIncreasingSubsequence.dll.a
   TARGET_PDB = IncreasingSubsequence.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Projects
+
+
+#############################################
+# Order-only phony target for Projects
+
+build cmake_object_order_depends_target_Projects: phony || CMakeFiles/Projects.dir
+
+build CMakeFiles/Projects.dir/DynamicProgramming/Projects.cpp.obj: CXX_COMPILER__Projects_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/DynamicProgramming/Projects.cpp || cmake_object_order_depends_target_Projects
+  DEP_FILE = CMakeFiles\Projects.dir\DynamicProgramming\Projects.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Projects.dir
+  OBJECT_FILE_DIR = CMakeFiles\Projects.dir\DynamicProgramming
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Projects
+
+
+#############################################
+# Link the executable Projects.exe
+
+build Projects.exe: CXX_EXECUTABLE_LINKER__Projects_Debug CMakeFiles/Projects.dir/DynamicProgramming/Projects.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Projects.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Projects.exe
+  TARGET_IMPLIB = libProjects.dll.a
+  TARGET_PDB = Projects.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1397,6 +1430,8 @@ build PointLocationTest: phony PointLocationTest.exe
 
 build PolygonArea: phony PolygonArea.exe
 
+build Projects: phony Projects.exe
+
 build ReadingBooks: phony ReadingBooks.exe
 
 build RectangleCutting: phony RectangleCutting.exe
@@ -1439,7 +1474,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe TwoSets.exe IncreasingSubsequence.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe TwoSets.exe IncreasingSubsequence.exe Projects.exe
 
 # =============================================================================
 # Built-in targets
