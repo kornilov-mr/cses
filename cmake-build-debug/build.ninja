@@ -1360,6 +1360,39 @@ build Projects.exe: CXX_EXECUTABLE_LINKER__Projects_Debug CMakeFiles/Projects.di
   TARGET_IMPLIB = libProjects.dll.a
   TARGET_PDB = Projects.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Removalgame
+
+
+#############################################
+# Order-only phony target for Removalgame
+
+build cmake_object_order_depends_target_Removalgame: phony || CMakeFiles/Removalgame.dir
+
+build CMakeFiles/Removalgame.dir/DynamicProgramming/Removalgame.cpp.obj: CXX_COMPILER__Removalgame_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/DynamicProgramming/Removalgame.cpp || cmake_object_order_depends_target_Removalgame
+  DEP_FILE = CMakeFiles\Removalgame.dir\DynamicProgramming\Removalgame.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Removalgame.dir
+  OBJECT_FILE_DIR = CMakeFiles\Removalgame.dir\DynamicProgramming
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Removalgame
+
+
+#############################################
+# Link the executable Removalgame.exe
+
+build Removalgame.exe: CXX_EXECUTABLE_LINKER__Removalgame_Debug CMakeFiles/Removalgame.dir/DynamicProgramming/Removalgame.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Removalgame.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Removalgame.exe
+  TARGET_IMPLIB = libRemovalgame.dll.a
+  TARGET_PDB = Removalgame.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1436,6 +1469,8 @@ build ReadingBooks: phony ReadingBooks.exe
 
 build RectangleCutting: phony RectangleCutting.exe
 
+build Removalgame: phony Removalgame.exe
+
 build RestaurantCustomers: phony RestaurantCustomers.exe
 
 build RoomAllocation: phony RoomAllocation.exe
@@ -1474,7 +1509,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe TwoSets.exe IncreasingSubsequence.exe Projects.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe TwoSets.exe IncreasingSubsequence.exe Projects.exe Removalgame.exe
 
 # =============================================================================
 # Built-in targets
