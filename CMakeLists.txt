@@ -46,3 +46,8 @@ add_executable(TwoSets DynamicProgramming/TwoSets2.cpp)
 add_executable(IncreasingSubsequence DynamicProgramming/IncreasingSubsequence.cpp)
 add_executable(Projects DynamicProgramming/Projects.cpp)
 add_executable(Removalgame DynamicProgramming/Removalgame.cpp)
+add_executable(ElevatorRides DynamicProgramming/ElevatorRides.cpp)
+add_executable(CountingNumbers DynamicProgramming/CountingNumbers.cpp)
+
+add_executable(BuildingRoads Graphs/BuildingRoads.cpp)
+add_executable(MessageRoute Graphs/MessageRoute.cpp)

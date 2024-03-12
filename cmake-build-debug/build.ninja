@@ -1393,6 +1393,138 @@ build Removalgame.exe: CXX_EXECUTABLE_LINKER__Removalgame_Debug CMakeFiles/Remov
   TARGET_IMPLIB = libRemovalgame.dll.a
   TARGET_PDB = Removalgame.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ElevatorRides
+
+
+#############################################
+# Order-only phony target for ElevatorRides
+
+build cmake_object_order_depends_target_ElevatorRides: phony || CMakeFiles/ElevatorRides.dir
+
+build CMakeFiles/ElevatorRides.dir/DynamicProgramming/ElevatorRides.cpp.obj: CXX_COMPILER__ElevatorRides_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/DynamicProgramming/ElevatorRides.cpp || cmake_object_order_depends_target_ElevatorRides
+  DEP_FILE = CMakeFiles\ElevatorRides.dir\DynamicProgramming\ElevatorRides.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ElevatorRides.dir
+  OBJECT_FILE_DIR = CMakeFiles\ElevatorRides.dir\DynamicProgramming
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ElevatorRides
+
+
+#############################################
+# Link the executable ElevatorRides.exe
+
+build ElevatorRides.exe: CXX_EXECUTABLE_LINKER__ElevatorRides_Debug CMakeFiles/ElevatorRides.dir/DynamicProgramming/ElevatorRides.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ElevatorRides.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ElevatorRides.exe
+  TARGET_IMPLIB = libElevatorRides.dll.a
+  TARGET_PDB = ElevatorRides.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CountingNumbers
+
+
+#############################################
+# Order-only phony target for CountingNumbers
+
+build cmake_object_order_depends_target_CountingNumbers: phony || CMakeFiles/CountingNumbers.dir
+
+build CMakeFiles/CountingNumbers.dir/DynamicProgramming/CountingNumbers.cpp.obj: CXX_COMPILER__CountingNumbers_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/DynamicProgramming/CountingNumbers.cpp || cmake_object_order_depends_target_CountingNumbers
+  DEP_FILE = CMakeFiles\CountingNumbers.dir\DynamicProgramming\CountingNumbers.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CountingNumbers.dir
+  OBJECT_FILE_DIR = CMakeFiles\CountingNumbers.dir\DynamicProgramming
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CountingNumbers
+
+
+#############################################
+# Link the executable CountingNumbers.exe
+
+build CountingNumbers.exe: CXX_EXECUTABLE_LINKER__CountingNumbers_Debug CMakeFiles/CountingNumbers.dir/DynamicProgramming/CountingNumbers.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CountingNumbers.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CountingNumbers.exe
+  TARGET_IMPLIB = libCountingNumbers.dll.a
+  TARGET_PDB = CountingNumbers.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BuildingRoads
+
+
+#############################################
+# Order-only phony target for BuildingRoads
+
+build cmake_object_order_depends_target_BuildingRoads: phony || CMakeFiles/BuildingRoads.dir
+
+build CMakeFiles/BuildingRoads.dir/Graphs/BuildingRoads.cpp.obj: CXX_COMPILER__BuildingRoads_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/Graphs/BuildingRoads.cpp || cmake_object_order_depends_target_BuildingRoads
+  DEP_FILE = CMakeFiles\BuildingRoads.dir\Graphs\BuildingRoads.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BuildingRoads.dir
+  OBJECT_FILE_DIR = CMakeFiles\BuildingRoads.dir\Graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BuildingRoads
+
+
+#############################################
+# Link the executable BuildingRoads.exe
+
+build BuildingRoads.exe: CXX_EXECUTABLE_LINKER__BuildingRoads_Debug CMakeFiles/BuildingRoads.dir/Graphs/BuildingRoads.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BuildingRoads.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BuildingRoads.exe
+  TARGET_IMPLIB = libBuildingRoads.dll.a
+  TARGET_PDB = BuildingRoads.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MessageRoute
+
+
+#############################################
+# Order-only phony target for MessageRoute
+
+build cmake_object_order_depends_target_MessageRoute: phony || CMakeFiles/MessageRoute.dir
+
+build CMakeFiles/MessageRoute.dir/Graphs/MessageRoute.cpp.obj: CXX_COMPILER__MessageRoute_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/Graphs/MessageRoute.cpp || cmake_object_order_depends_target_MessageRoute
+  DEP_FILE = CMakeFiles\MessageRoute.dir\Graphs\MessageRoute.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MessageRoute.dir
+  OBJECT_FILE_DIR = CMakeFiles\MessageRoute.dir\Graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MessageRoute
+
+
+#############################################
+# Link the executable MessageRoute.exe
+
+build MessageRoute.exe: CXX_EXECUTABLE_LINKER__MessageRoute_Debug CMakeFiles/MessageRoute.dir/Graphs/MessageRoute.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\MessageRoute.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = MessageRoute.exe
+  TARGET_IMPLIB = libMessageRoute.dll.a
+  TARGET_PDB = MessageRoute.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1425,15 +1557,21 @@ build ArrayDivision: phony ArrayDivision.exe
 
 build BookShop: phony BookShop.exe
 
+build BuildingRoads: phony BuildingRoads.exe
+
 build CoinCombination2: phony CoinCombination2.exe
 
 build CollectionNumbers2: phony CollectionNumbers2.exe
 
 build ConcertTicket: phony ConcertTicket.exe
 
+build CountingNumbers: phony CountingNumbers.exe
+
 build CountingTowers: phony CountingTowers.exe
 
 build EditDistance: phony EditDistance.exe
+
+build ElevatorRides: phony ElevatorRides.exe
 
 build FactoryMachines: phony FactoryMachines.exe
 
@@ -1444,6 +1582,8 @@ build IncreasingSubsequence: phony IncreasingSubsequence.exe
 build LineSegmentIntersection: phony LineSegmentIntersection.exe
 
 build MaximumSubarraySum2: phony MaximumSubarraySum2.exe
+
+build MessageRoute: phony MessageRoute.exe
 
 build MinimizingCoins: phony MinimizingCoins.exe
 
@@ -1509,7 +1649,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe TwoSets.exe IncreasingSubsequence.exe Projects.exe Removalgame.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe TwoSets.exe IncreasingSubsequence.exe Projects.exe Removalgame.exe ElevatorRides.exe CountingNumbers.exe BuildingRoads.exe MessageRoute.exe
 
 # =============================================================================
 # Built-in targets
