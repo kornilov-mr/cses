@@ -1558,6 +1558,138 @@ build ShortestRoutes1.exe: CXX_EXECUTABLE_LINKER__ShortestRoutes1_Debug CMakeFil
   TARGET_IMPLIB = libShortestRoutes1.dll.a
   TARGET_PDB = ShortestRoutes1.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ShortestRoutes2
+
+
+#############################################
+# Order-only phony target for ShortestRoutes2
+
+build cmake_object_order_depends_target_ShortestRoutes2: phony || CMakeFiles/ShortestRoutes2.dir
+
+build CMakeFiles/ShortestRoutes2.dir/Graphs/ShortestRoutes2.cpp.obj: CXX_COMPILER__ShortestRoutes2_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/Graphs/ShortestRoutes2.cpp || cmake_object_order_depends_target_ShortestRoutes2
+  DEP_FILE = CMakeFiles\ShortestRoutes2.dir\Graphs\ShortestRoutes2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ShortestRoutes2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ShortestRoutes2.dir\Graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ShortestRoutes2
+
+
+#############################################
+# Link the executable ShortestRoutes2.exe
+
+build ShortestRoutes2.exe: CXX_EXECUTABLE_LINKER__ShortestRoutes2_Debug CMakeFiles/ShortestRoutes2.dir/Graphs/ShortestRoutes2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ShortestRoutes2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ShortestRoutes2.exe
+  TARGET_IMPLIB = libShortestRoutes2.dll.a
+  TARGET_PDB = ShortestRoutes2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target HighScore
+
+
+#############################################
+# Order-only phony target for HighScore
+
+build cmake_object_order_depends_target_HighScore: phony || CMakeFiles/HighScore.dir
+
+build CMakeFiles/HighScore.dir/Graphs/HighScore.cpp.obj: CXX_COMPILER__HighScore_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/Graphs/HighScore.cpp || cmake_object_order_depends_target_HighScore
+  DEP_FILE = CMakeFiles\HighScore.dir\Graphs\HighScore.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\HighScore.dir
+  OBJECT_FILE_DIR = CMakeFiles\HighScore.dir\Graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target HighScore
+
+
+#############################################
+# Link the executable HighScore.exe
+
+build HighScore.exe: CXX_EXECUTABLE_LINKER__HighScore_Debug CMakeFiles/HighScore.dir/Graphs/HighScore.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\HighScore.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = HighScore.exe
+  TARGET_IMPLIB = libHighScore.dll.a
+  TARGET_PDB = HighScore.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BuildingTeams
+
+
+#############################################
+# Order-only phony target for BuildingTeams
+
+build cmake_object_order_depends_target_BuildingTeams: phony || CMakeFiles/BuildingTeams.dir
+
+build CMakeFiles/BuildingTeams.dir/Graphs/BuildingTeams.cpp.obj: CXX_COMPILER__BuildingTeams_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/Graphs/BuildingTeams.cpp || cmake_object_order_depends_target_BuildingTeams
+  DEP_FILE = CMakeFiles\BuildingTeams.dir\Graphs\BuildingTeams.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BuildingTeams.dir
+  OBJECT_FILE_DIR = CMakeFiles\BuildingTeams.dir\Graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BuildingTeams
+
+
+#############################################
+# Link the executable BuildingTeams.exe
+
+build BuildingTeams.exe: CXX_EXECUTABLE_LINKER__BuildingTeams_Debug CMakeFiles/BuildingTeams.dir/Graphs/BuildingTeams.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BuildingTeams.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BuildingTeams.exe
+  TARGET_IMPLIB = libBuildingTeams.dll.a
+  TARGET_PDB = BuildingTeams.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Labyrinth
+
+
+#############################################
+# Order-only phony target for Labyrinth
+
+build cmake_object_order_depends_target_Labyrinth: phony || CMakeFiles/Labyrinth.dir
+
+build CMakeFiles/Labyrinth.dir/Graphs/Labyrinth.cpp.obj: CXX_COMPILER__Labyrinth_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/Graphs/Labyrinth.cpp || cmake_object_order_depends_target_Labyrinth
+  DEP_FILE = CMakeFiles\Labyrinth.dir\Graphs\Labyrinth.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Labyrinth.dir
+  OBJECT_FILE_DIR = CMakeFiles\Labyrinth.dir\Graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Labyrinth
+
+
+#############################################
+# Link the executable Labyrinth.exe
+
+build Labyrinth.exe: CXX_EXECUTABLE_LINKER__Labyrinth_Debug CMakeFiles/Labyrinth.dir/Graphs/Labyrinth.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Labyrinth.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Labyrinth.exe
+  TARGET_IMPLIB = libLabyrinth.dll.a
+  TARGET_PDB = Labyrinth.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1592,6 +1724,8 @@ build BookShop: phony BookShop.exe
 
 build BuildingRoads: phony BuildingRoads.exe
 
+build BuildingTeams: phony BuildingTeams.exe
+
 build CoinCombination2: phony CoinCombination2.exe
 
 build CollectionNumbers2: phony CollectionNumbers2.exe
@@ -1610,7 +1744,11 @@ build FactoryMachines: phony FactoryMachines.exe
 
 build GridPaths: phony GridPaths.exe
 
+build HighScore: phony HighScore.exe
+
 build IncreasingSubsequence: phony IncreasingSubsequence.exe
+
+build Labyrinth: phony Labyrinth.exe
 
 build LineSegmentIntersection: phony LineSegmentIntersection.exe
 
@@ -1650,6 +1788,8 @@ build RoomAllocation: phony RoomAllocation.exe
 
 build ShortestRoutes1: phony ShortestRoutes1.exe
 
+build ShortestRoutes2: phony ShortestRoutes2.exe
+
 build SlidingWindowCost: phony SlidingWindowCost.exe
 
 build SlidingWindowMedian: phony SlidingWindowMedian.exe
@@ -1684,7 +1824,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe TwoSets.exe IncreasingSubsequence.exe Projects.exe Removalgame.exe ElevatorRides.exe CountingNumbers.exe BuildingRoads.exe MessageRoute.exe ShortestRoutes1.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe TwoSets.exe IncreasingSubsequence.exe Projects.exe Removalgame.exe ElevatorRides.exe CountingNumbers.exe BuildingRoads.exe MessageRoute.exe ShortestRoutes1.exe ShortestRoutes2.exe HighScore.exe BuildingTeams.exe Labyrinth.exe
 
 # =============================================================================
 # Built-in targets
