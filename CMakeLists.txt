@@ -51,3 +51,4 @@ add_executable(CountingNumbers DynamicProgramming/CountingNumbers.cpp)
 
 add_executable(BuildingRoads Graphs/BuildingRoads.cpp)
 add_executable(MessageRoute Graphs/MessageRoute.cpp)
+add_executable(ShortestRoutes1 Graphs/ShortestRoutes1.cpp)

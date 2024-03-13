@@ -1525,6 +1525,39 @@ build MessageRoute.exe: CXX_EXECUTABLE_LINKER__MessageRoute_Debug CMakeFiles/Mes
   TARGET_IMPLIB = libMessageRoute.dll.a
   TARGET_PDB = MessageRoute.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ShortestRoutes1
+
+
+#############################################
+# Order-only phony target for ShortestRoutes1
+
+build cmake_object_order_depends_target_ShortestRoutes1: phony || CMakeFiles/ShortestRoutes1.dir
+
+build CMakeFiles/ShortestRoutes1.dir/Graphs/ShortestRoutes1.cpp.obj: CXX_COMPILER__ShortestRoutes1_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/Graphs/ShortestRoutes1.cpp || cmake_object_order_depends_target_ShortestRoutes1
+  DEP_FILE = CMakeFiles\ShortestRoutes1.dir\Graphs\ShortestRoutes1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ShortestRoutes1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ShortestRoutes1.dir\Graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ShortestRoutes1
+
+
+#############################################
+# Link the executable ShortestRoutes1.exe
+
+build ShortestRoutes1.exe: CXX_EXECUTABLE_LINKER__ShortestRoutes1_Debug CMakeFiles/ShortestRoutes1.dir/Graphs/ShortestRoutes1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ShortestRoutes1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ShortestRoutes1.exe
+  TARGET_IMPLIB = libShortestRoutes1.dll.a
+  TARGET_PDB = ShortestRoutes1.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1615,6 +1648,8 @@ build RestaurantCustomers: phony RestaurantCustomers.exe
 
 build RoomAllocation: phony RoomAllocation.exe
 
+build ShortestRoutes1: phony ShortestRoutes1.exe
+
 build SlidingWindowCost: phony SlidingWindowCost.exe
 
 build SlidingWindowMedian: phony SlidingWindowMedian.exe
@@ -1649,7 +1684,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe TwoSets.exe IncreasingSubsequence.exe Projects.exe Removalgame.exe ElevatorRides.exe CountingNumbers.exe BuildingRoads.exe MessageRoute.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe TwoSets.exe IncreasingSubsequence.exe Projects.exe Removalgame.exe ElevatorRides.exe CountingNumbers.exe BuildingRoads.exe MessageRoute.exe ShortestRoutes1.exe
 
 # =============================================================================
 # Built-in targets
