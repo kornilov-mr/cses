@@ -1690,6 +1690,138 @@ build Labyrinth.exe: CXX_EXECUTABLE_LINKER__Labyrinth_Debug CMakeFiles/Labyrinth
   TARGET_IMPLIB = libLabyrinth.dll.a
   TARGET_PDB = Labyrinth.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target CycleFinding
+
+
+#############################################
+# Order-only phony target for CycleFinding
+
+build cmake_object_order_depends_target_CycleFinding: phony || CMakeFiles/CycleFinding.dir
+
+build CMakeFiles/CycleFinding.dir/Graphs/CycleFinding.cpp.obj: CXX_COMPILER__CycleFinding_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/Graphs/CycleFinding.cpp || cmake_object_order_depends_target_CycleFinding
+  DEP_FILE = CMakeFiles\CycleFinding.dir\Graphs\CycleFinding.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CycleFinding.dir
+  OBJECT_FILE_DIR = CMakeFiles\CycleFinding.dir\Graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CycleFinding
+
+
+#############################################
+# Link the executable CycleFinding.exe
+
+build CycleFinding.exe: CXX_EXECUTABLE_LINKER__CycleFinding_Debug CMakeFiles/CycleFinding.dir/Graphs/CycleFinding.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CycleFinding.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CycleFinding.exe
+  TARGET_IMPLIB = libCycleFinding.dll.a
+  TARGET_PDB = CycleFinding.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RoundTrip
+
+
+#############################################
+# Order-only phony target for RoundTrip
+
+build cmake_object_order_depends_target_RoundTrip: phony || CMakeFiles/RoundTrip.dir
+
+build CMakeFiles/RoundTrip.dir/Graphs/RoundTrip.cpp.obj: CXX_COMPILER__RoundTrip_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/Graphs/RoundTrip.cpp || cmake_object_order_depends_target_RoundTrip
+  DEP_FILE = CMakeFiles\RoundTrip.dir\Graphs\RoundTrip.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RoundTrip.dir
+  OBJECT_FILE_DIR = CMakeFiles\RoundTrip.dir\Graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RoundTrip
+
+
+#############################################
+# Link the executable RoundTrip.exe
+
+build RoundTrip.exe: CXX_EXECUTABLE_LINKER__RoundTrip_Debug CMakeFiles/RoundTrip.dir/Graphs/RoundTrip.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RoundTrip.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RoundTrip.exe
+  TARGET_IMPLIB = libRoundTrip.dll.a
+  TARGET_PDB = RoundTrip.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Monsters
+
+
+#############################################
+# Order-only phony target for Monsters
+
+build cmake_object_order_depends_target_Monsters: phony || CMakeFiles/Monsters.dir
+
+build CMakeFiles/Monsters.dir/Graphs/Monsters.cpp.obj: CXX_COMPILER__Monsters_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/Graphs/Monsters.cpp || cmake_object_order_depends_target_Monsters
+  DEP_FILE = CMakeFiles\Monsters.dir\Graphs\Monsters.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Monsters.dir
+  OBJECT_FILE_DIR = CMakeFiles\Monsters.dir\Graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Monsters
+
+
+#############################################
+# Link the executable Monsters.exe
+
+build Monsters.exe: CXX_EXECUTABLE_LINKER__Monsters_Debug CMakeFiles/Monsters.dir/Graphs/Monsters.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Monsters.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Monsters.exe
+  TARGET_IMPLIB = libMonsters.dll.a
+  TARGET_PDB = Monsters.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RoundTrip2
+
+
+#############################################
+# Order-only phony target for RoundTrip2
+
+build cmake_object_order_depends_target_RoundTrip2: phony || CMakeFiles/RoundTrip2.dir
+
+build CMakeFiles/RoundTrip2.dir/Graphs/RoundTrip2.cpp.obj: CXX_COMPILER__RoundTrip2_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/Graphs/RoundTrip2.cpp || cmake_object_order_depends_target_RoundTrip2
+  DEP_FILE = CMakeFiles\RoundTrip2.dir\Graphs\RoundTrip2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RoundTrip2.dir
+  OBJECT_FILE_DIR = CMakeFiles\RoundTrip2.dir\Graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RoundTrip2
+
+
+#############################################
+# Link the executable RoundTrip2.exe
+
+build RoundTrip2.exe: CXX_EXECUTABLE_LINKER__RoundTrip2_Debug CMakeFiles/RoundTrip2.dir/Graphs/RoundTrip2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RoundTrip2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RoundTrip2.exe
+  TARGET_IMPLIB = libRoundTrip2.dll.a
+  TARGET_PDB = RoundTrip2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1736,6 +1868,8 @@ build CountingNumbers: phony CountingNumbers.exe
 
 build CountingTowers: phony CountingTowers.exe
 
+build CycleFinding: phony CycleFinding.exe
+
 build EditDistance: phony EditDistance.exe
 
 build ElevatorRides: phony ElevatorRides.exe
@@ -1759,6 +1893,8 @@ build MessageRoute: phony MessageRoute.exe
 build MinimizingCoins: phony MinimizingCoins.exe
 
 build MoneySums: phony MoneySums.exe
+
+build Monsters: phony Monsters.exe
 
 build MovieFestival: phony MovieFestival.exe
 
@@ -1785,6 +1921,10 @@ build Removalgame: phony Removalgame.exe
 build RestaurantCustomers: phony RestaurantCustomers.exe
 
 build RoomAllocation: phony RoomAllocation.exe
+
+build RoundTrip: phony RoundTrip.exe
+
+build RoundTrip2: phony RoundTrip2.exe
 
 build ShortestRoutes1: phony ShortestRoutes1.exe
 
@@ -1824,7 +1964,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe TwoSets.exe IncreasingSubsequence.exe Projects.exe Removalgame.exe ElevatorRides.exe CountingNumbers.exe BuildingRoads.exe MessageRoute.exe ShortestRoutes1.exe ShortestRoutes2.exe HighScore.exe BuildingTeams.exe Labyrinth.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe TwoSets.exe IncreasingSubsequence.exe Projects.exe Removalgame.exe ElevatorRides.exe CountingNumbers.exe BuildingRoads.exe MessageRoute.exe ShortestRoutes1.exe ShortestRoutes2.exe HighScore.exe BuildingTeams.exe Labyrinth.exe CycleFinding.exe RoundTrip.exe Monsters.exe RoundTrip2.exe
 
 # =============================================================================
 # Built-in targets

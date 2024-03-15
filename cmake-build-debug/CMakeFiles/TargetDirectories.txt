@@ -48,5 +48,9 @@ C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/ShortestRoutes
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/HighScore.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/BuildingTeams.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/Labyrinth.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/CycleFinding.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/RoundTrip.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/Monsters.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/RoundTrip2.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/rebuild_cache.dir
