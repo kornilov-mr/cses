@@ -60,3 +60,7 @@ add_executable(CycleFinding Graphs/CycleFinding.cpp)
 add_executable(RoundTrip Graphs/RoundTrip.cpp)
 add_executable(Monsters Graphs/Monsters.cpp)
 add_executable(RoundTrip2 Graphs/RoundTrip2.cpp)
+
+add_executable(StaticRangeSumQueries RangeQueries/StaticRangeSumQueries.cpp)
+add_executable(StaticRangeMinimumQueries RangeQueries/StaticRangeMinimumQueries.cpp)
+

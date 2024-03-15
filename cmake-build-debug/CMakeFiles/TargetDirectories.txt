@@ -52,5 +52,7 @@ C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/CycleFinding.d
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/RoundTrip.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/Monsters.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/RoundTrip2.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/StaticRangeSumQueries.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/StaticRangeMinimumQueries.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/rebuild_cache.dir

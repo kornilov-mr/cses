@@ -1822,6 +1822,72 @@ build RoundTrip2.exe: CXX_EXECUTABLE_LINKER__RoundTrip2_Debug CMakeFiles/RoundTr
   TARGET_IMPLIB = libRoundTrip2.dll.a
   TARGET_PDB = RoundTrip2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target StaticRangeSumQueries
+
+
+#############################################
+# Order-only phony target for StaticRangeSumQueries
+
+build cmake_object_order_depends_target_StaticRangeSumQueries: phony || CMakeFiles/StaticRangeSumQueries.dir
+
+build CMakeFiles/StaticRangeSumQueries.dir/RangeQueries/StaticRangeSumQueries.cpp.obj: CXX_COMPILER__StaticRangeSumQueries_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/RangeQueries/StaticRangeSumQueries.cpp || cmake_object_order_depends_target_StaticRangeSumQueries
+  DEP_FILE = CMakeFiles\StaticRangeSumQueries.dir\RangeQueries\StaticRangeSumQueries.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\StaticRangeSumQueries.dir
+  OBJECT_FILE_DIR = CMakeFiles\StaticRangeSumQueries.dir\RangeQueries
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target StaticRangeSumQueries
+
+
+#############################################
+# Link the executable StaticRangeSumQueries.exe
+
+build StaticRangeSumQueries.exe: CXX_EXECUTABLE_LINKER__StaticRangeSumQueries_Debug CMakeFiles/StaticRangeSumQueries.dir/RangeQueries/StaticRangeSumQueries.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\StaticRangeSumQueries.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = StaticRangeSumQueries.exe
+  TARGET_IMPLIB = libStaticRangeSumQueries.dll.a
+  TARGET_PDB = StaticRangeSumQueries.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target StaticRangeMinimumQueries
+
+
+#############################################
+# Order-only phony target for StaticRangeMinimumQueries
+
+build cmake_object_order_depends_target_StaticRangeMinimumQueries: phony || CMakeFiles/StaticRangeMinimumQueries.dir
+
+build CMakeFiles/StaticRangeMinimumQueries.dir/RangeQueries/StaticRangeMinimumQueries.cpp.obj: CXX_COMPILER__StaticRangeMinimumQueries_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/RangeQueries/StaticRangeMinimumQueries.cpp || cmake_object_order_depends_target_StaticRangeMinimumQueries
+  DEP_FILE = CMakeFiles\StaticRangeMinimumQueries.dir\RangeQueries\StaticRangeMinimumQueries.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\StaticRangeMinimumQueries.dir
+  OBJECT_FILE_DIR = CMakeFiles\StaticRangeMinimumQueries.dir\RangeQueries
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target StaticRangeMinimumQueries
+
+
+#############################################
+# Link the executable StaticRangeMinimumQueries.exe
+
+build StaticRangeMinimumQueries.exe: CXX_EXECUTABLE_LINKER__StaticRangeMinimumQueries_Debug CMakeFiles/StaticRangeMinimumQueries.dir/RangeQueries/StaticRangeMinimumQueries.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\StaticRangeMinimumQueries.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = StaticRangeMinimumQueries.exe
+  TARGET_IMPLIB = libStaticRangeMinimumQueries.dll.a
+  TARGET_PDB = StaticRangeMinimumQueries.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1934,6 +2000,10 @@ build SlidingWindowCost: phony SlidingWindowCost.exe
 
 build SlidingWindowMedian: phony SlidingWindowMedian.exe
 
+build StaticRangeMinimumQueries: phony StaticRangeMinimumQueries.exe
+
+build StaticRangeSumQueries: phony StaticRangeSumQueries.exe
+
 build SubarrayDistinctValues: phony SubarrayDistinctValues.exe
 
 build SubarrayDivisibilty: phony SubarrayDivisibilty.exe
@@ -1964,7 +2034,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe TwoSets.exe IncreasingSubsequence.exe Projects.exe Removalgame.exe ElevatorRides.exe CountingNumbers.exe BuildingRoads.exe MessageRoute.exe ShortestRoutes1.exe ShortestRoutes2.exe HighScore.exe BuildingTeams.exe Labyrinth.exe CycleFinding.exe RoundTrip.exe Monsters.exe RoundTrip2.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe TwoSets.exe IncreasingSubsequence.exe Projects.exe Removalgame.exe ElevatorRides.exe CountingNumbers.exe BuildingRoads.exe MessageRoute.exe ShortestRoutes1.exe ShortestRoutes2.exe HighScore.exe BuildingTeams.exe Labyrinth.exe CycleFinding.exe RoundTrip.exe Monsters.exe RoundTrip2.exe StaticRangeSumQueries.exe StaticRangeMinimumQueries.exe
 
 # =============================================================================
 # Built-in targets
