@@ -1823,6 +1823,171 @@ build RoundTrip2.exe: CXX_EXECUTABLE_LINKER__RoundTrip2_Debug CMakeFiles/RoundTr
   TARGET_PDB = RoundTrip2.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target FlightDiscount
+
+
+#############################################
+# Order-only phony target for FlightDiscount
+
+build cmake_object_order_depends_target_FlightDiscount: phony || CMakeFiles/FlightDiscount.dir
+
+build CMakeFiles/FlightDiscount.dir/Graphs/FlightDiscount.cpp.obj: CXX_COMPILER__FlightDiscount_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/Graphs/FlightDiscount.cpp || cmake_object_order_depends_target_FlightDiscount
+  DEP_FILE = CMakeFiles\FlightDiscount.dir\Graphs\FlightDiscount.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\FlightDiscount.dir
+  OBJECT_FILE_DIR = CMakeFiles\FlightDiscount.dir\Graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FlightDiscount
+
+
+#############################################
+# Link the executable FlightDiscount.exe
+
+build FlightDiscount.exe: CXX_EXECUTABLE_LINKER__FlightDiscount_Debug CMakeFiles/FlightDiscount.dir/Graphs/FlightDiscount.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FlightDiscount.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FlightDiscount.exe
+  TARGET_IMPLIB = libFlightDiscount.dll.a
+  TARGET_PDB = FlightDiscount.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target FlightRoutes
+
+
+#############################################
+# Order-only phony target for FlightRoutes
+
+build cmake_object_order_depends_target_FlightRoutes: phony || CMakeFiles/FlightRoutes.dir
+
+build CMakeFiles/FlightRoutes.dir/Graphs/FlightRoutes.cpp.obj: CXX_COMPILER__FlightRoutes_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/Graphs/FlightRoutes.cpp || cmake_object_order_depends_target_FlightRoutes
+  DEP_FILE = CMakeFiles\FlightRoutes.dir\Graphs\FlightRoutes.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\FlightRoutes.dir
+  OBJECT_FILE_DIR = CMakeFiles\FlightRoutes.dir\Graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FlightRoutes
+
+
+#############################################
+# Link the executable FlightRoutes.exe
+
+build FlightRoutes.exe: CXX_EXECUTABLE_LINKER__FlightRoutes_Debug CMakeFiles/FlightRoutes.dir/Graphs/FlightRoutes.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FlightRoutes.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FlightRoutes.exe
+  TARGET_IMPLIB = libFlightRoutes.dll.a
+  TARGET_PDB = FlightRoutes.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LongestFlightRoute
+
+
+#############################################
+# Order-only phony target for LongestFlightRoute
+
+build cmake_object_order_depends_target_LongestFlightRoute: phony || CMakeFiles/LongestFlightRoute.dir
+
+build CMakeFiles/LongestFlightRoute.dir/Graphs/LongestFlightRoute.cpp.obj: CXX_COMPILER__LongestFlightRoute_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/Graphs/LongestFlightRoute.cpp || cmake_object_order_depends_target_LongestFlightRoute
+  DEP_FILE = CMakeFiles\LongestFlightRoute.dir\Graphs\LongestFlightRoute.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\LongestFlightRoute.dir
+  OBJECT_FILE_DIR = CMakeFiles\LongestFlightRoute.dir\Graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LongestFlightRoute
+
+
+#############################################
+# Link the executable LongestFlightRoute.exe
+
+build LongestFlightRoute.exe: CXX_EXECUTABLE_LINKER__LongestFlightRoute_Debug CMakeFiles/LongestFlightRoute.dir/Graphs/LongestFlightRoute.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\LongestFlightRoute.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LongestFlightRoute.exe
+  TARGET_IMPLIB = libLongestFlightRoute.dll.a
+  TARGET_PDB = LongestFlightRoute.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CourseSchedule
+
+
+#############################################
+# Order-only phony target for CourseSchedule
+
+build cmake_object_order_depends_target_CourseSchedule: phony || CMakeFiles/CourseSchedule.dir
+
+build CMakeFiles/CourseSchedule.dir/Graphs/FlightRoutes.cpp.obj: CXX_COMPILER__CourseSchedule_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/Graphs/FlightRoutes.cpp || cmake_object_order_depends_target_CourseSchedule
+  DEP_FILE = CMakeFiles\CourseSchedule.dir\Graphs\FlightRoutes.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CourseSchedule.dir
+  OBJECT_FILE_DIR = CMakeFiles\CourseSchedule.dir\Graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CourseSchedule
+
+
+#############################################
+# Link the executable CourseSchedule.exe
+
+build CourseSchedule.exe: CXX_EXECUTABLE_LINKER__CourseSchedule_Debug CMakeFiles/CourseSchedule.dir/Graphs/FlightRoutes.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CourseSchedule.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CourseSchedule.exe
+  TARGET_IMPLIB = libCourseSchedule.dll.a
+  TARGET_PDB = CourseSchedule.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target GameRoutes
+
+
+#############################################
+# Order-only phony target for GameRoutes
+
+build cmake_object_order_depends_target_GameRoutes: phony || CMakeFiles/GameRoutes.dir
+
+build CMakeFiles/GameRoutes.dir/Graphs/GameRoutes.cpp.obj: CXX_COMPILER__GameRoutes_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/Graphs/GameRoutes.cpp || cmake_object_order_depends_target_GameRoutes
+  DEP_FILE = CMakeFiles\GameRoutes.dir\Graphs\GameRoutes.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\GameRoutes.dir
+  OBJECT_FILE_DIR = CMakeFiles\GameRoutes.dir\Graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target GameRoutes
+
+
+#############################################
+# Link the executable GameRoutes.exe
+
+build GameRoutes.exe: CXX_EXECUTABLE_LINKER__GameRoutes_Debug CMakeFiles/GameRoutes.dir/Graphs/GameRoutes.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\GameRoutes.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = GameRoutes.exe
+  TARGET_IMPLIB = libGameRoutes.dll.a
+  TARGET_PDB = GameRoutes.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target StaticRangeSumQueries
 
 
@@ -1934,6 +2099,8 @@ build CountingNumbers: phony CountingNumbers.exe
 
 build CountingTowers: phony CountingTowers.exe
 
+build CourseSchedule: phony CourseSchedule.exe
+
 build CycleFinding: phony CycleFinding.exe
 
 build EditDistance: phony EditDistance.exe
@@ -1941,6 +2108,12 @@ build EditDistance: phony EditDistance.exe
 build ElevatorRides: phony ElevatorRides.exe
 
 build FactoryMachines: phony FactoryMachines.exe
+
+build FlightDiscount: phony FlightDiscount.exe
+
+build FlightRoutes: phony FlightRoutes.exe
+
+build GameRoutes: phony GameRoutes.exe
 
 build GridPaths: phony GridPaths.exe
 
@@ -1951,6 +2124,8 @@ build IncreasingSubsequence: phony IncreasingSubsequence.exe
 build Labyrinth: phony Labyrinth.exe
 
 build LineSegmentIntersection: phony LineSegmentIntersection.exe
+
+build LongestFlightRoute: phony LongestFlightRoute.exe
 
 build MaximumSubarraySum2: phony MaximumSubarraySum2.exe
 
@@ -2034,7 +2209,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe TwoSets.exe IncreasingSubsequence.exe Projects.exe Removalgame.exe ElevatorRides.exe CountingNumbers.exe BuildingRoads.exe MessageRoute.exe ShortestRoutes1.exe ShortestRoutes2.exe HighScore.exe BuildingTeams.exe Labyrinth.exe CycleFinding.exe RoundTrip.exe Monsters.exe RoundTrip2.exe StaticRangeSumQueries.exe StaticRangeMinimumQueries.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe TwoSets.exe IncreasingSubsequence.exe Projects.exe Removalgame.exe ElevatorRides.exe CountingNumbers.exe BuildingRoads.exe MessageRoute.exe ShortestRoutes1.exe ShortestRoutes2.exe HighScore.exe BuildingTeams.exe Labyrinth.exe CycleFinding.exe RoundTrip.exe Monsters.exe RoundTrip2.exe FlightDiscount.exe FlightRoutes.exe LongestFlightRoute.exe CourseSchedule.exe GameRoutes.exe StaticRangeSumQueries.exe StaticRangeMinimumQueries.exe
 
 # =============================================================================
 # Built-in targets

@@ -1,5 +1,5 @@
 # ninja log v5
-1	597	7322289827581413	build.ninja	bb694314a045c020
+1	597	7324971881008616	build.ninja	bb694314a045c020
 18	3530	7303101734175740	CMakeFiles/josephesProblem.dir/sorting/NestedRangeCheck.cpp.obj	40686fbf2769434d
 1	2374	7303102921215318	CMakeFiles/towers.dir/sorting/towers.cpp.obj	fabc3b918bdaca34
 9	3538	7303129604944553	CMakeFiles/josephesProblem.dir/sorting/josephesProblem.cpp.obj	454a8000edbe53c5
@@ -100,15 +100,13 @@
 3219	3400	7322121738125503	RoundTrip2.exe	b9aa936cc777354
 5	2465	7322144612025963	CMakeFiles/StaticRangeSumQueries.dir/RangeQueries/StaticRangeSumQueries.cpp.obj	92140ebf727f4a49
 2465	2613	7322144613434892	StaticRangeSumQueries.exe	b966eadfe657c026
-1	3164	7322290092066850	CMakeFiles/StaticRangeMinimumQueries.dir/RangeQueries/StaticRangeMinimumQueries.cpp.obj	97e73907b94968e0
-3165	3402	7322290094387829	StaticRangeMinimumQueries.exe	3b8549f052cb5e71
-7	2822	7322290427078527	CMakeFiles/StaticRangeMinimumQueries.dir/RangeQueries/StaticRangeMinimumQueries.cpp.obj	97e73907b94968e0
-2823	2976	7322290428586950	StaticRangeMinimumQueries.exe	3b8549f052cb5e71
-5	2462	7322292840170054	CMakeFiles/StaticRangeMinimumQueries.dir/RangeQueries/StaticRangeMinimumQueries.cpp.obj	97e73907b94968e0
-2463	2604	7322292841549697	StaticRangeMinimumQueries.exe	3b8549f052cb5e71
-8	2729	7322293949065068	CMakeFiles/StaticRangeMinimumQueries.dir/RangeQueries/StaticRangeMinimumQueries.cpp.obj	97e73907b94968e0
-2730	2869	7322293950410696	StaticRangeMinimumQueries.exe	3b8549f052cb5e71
-5	2475	7322294252258165	CMakeFiles/StaticRangeMinimumQueries.dir/RangeQueries/StaticRangeMinimumQueries.cpp.obj	97e73907b94968e0
-2476	2628	7322294253752785	StaticRangeMinimumQueries.exe	3b8549f052cb5e71
 5	2589	7322294732809071	CMakeFiles/StaticRangeMinimumQueries.dir/RangeQueries/StaticRangeMinimumQueries.cpp.obj	97e73907b94968e0
 2590	2738	7322294734267521	StaticRangeMinimumQueries.exe	3b8549f052cb5e71
+6	2875	7323186933610020	CMakeFiles/FlightDiscount.dir/Graphs/FlightDiscount.cpp.obj	33ea78f5161d69d
+2876	3045	7323186935289283	FlightDiscount.exe	778ce2f3f142c9f5
+5	2840	7323252347248380	CMakeFiles/FlightRoutes.dir/Graphs/FlightRoutes.cpp.obj	517c68b63585fb33
+2841	3034	7323252349156317	FlightRoutes.exe	3592af4cca0c464e
+5	2948	7324966384485222	CMakeFiles/LongestFlightRoute.dir/Graphs/LongestFlightRoute.cpp.obj	d12f082ec59e4eea
+2949	3117	7324966386178100	LongestFlightRoute.exe	b8a6c727ac581e7f
+1	4012	7324973561969045	CMakeFiles/GameRoutes.dir/Graphs/GameRoutes.cpp.obj	6ea7f455566c2202
+4013	4248	7324973564309841	GameRoutes.exe	c3353adea07c586c
