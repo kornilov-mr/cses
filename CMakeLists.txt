@@ -65,6 +65,8 @@ add_executable(FlightRoutes Graphs/FlightRoutes.cpp)
 add_executable(LongestFlightRoute Graphs/LongestFlightRoute.cpp)
 add_executable(CourseSchedule Graphs/FlightRoutes.cpp)
 add_executable(GameRoutes Graphs/GameRoutes.cpp)
+add_executable(RoadReparation Graphs/RoadReparation.cpp)
+add_executable(RoadConstruct Graphs/RoadConstruction.cpp)
 
 add_executable(StaticRangeSumQueries RangeQueries/StaticRangeSumQueries.cpp)
 add_executable(StaticRangeMinimumQueries RangeQueries/StaticRangeMinimumQueries.cpp)

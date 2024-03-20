@@ -1988,6 +1988,72 @@ build GameRoutes.exe: CXX_EXECUTABLE_LINKER__GameRoutes_Debug CMakeFiles/GameRou
   TARGET_PDB = GameRoutes.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target RoadReparation
+
+
+#############################################
+# Order-only phony target for RoadReparation
+
+build cmake_object_order_depends_target_RoadReparation: phony || CMakeFiles/RoadReparation.dir
+
+build CMakeFiles/RoadReparation.dir/Graphs/RoadReparation.cpp.obj: CXX_COMPILER__RoadReparation_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/Graphs/RoadReparation.cpp || cmake_object_order_depends_target_RoadReparation
+  DEP_FILE = CMakeFiles\RoadReparation.dir\Graphs\RoadReparation.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RoadReparation.dir
+  OBJECT_FILE_DIR = CMakeFiles\RoadReparation.dir\Graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RoadReparation
+
+
+#############################################
+# Link the executable RoadReparation.exe
+
+build RoadReparation.exe: CXX_EXECUTABLE_LINKER__RoadReparation_Debug CMakeFiles/RoadReparation.dir/Graphs/RoadReparation.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RoadReparation.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RoadReparation.exe
+  TARGET_IMPLIB = libRoadReparation.dll.a
+  TARGET_PDB = RoadReparation.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RoadConstruct
+
+
+#############################################
+# Order-only phony target for RoadConstruct
+
+build cmake_object_order_depends_target_RoadConstruct: phony || CMakeFiles/RoadConstruct.dir
+
+build CMakeFiles/RoadConstruct.dir/Graphs/RoadConstruction.cpp.obj: CXX_COMPILER__RoadConstruct_unscanned_Debug C$:/Users/ThinkPad/CLionProjects/cses/Graphs/RoadConstruction.cpp || cmake_object_order_depends_target_RoadConstruct
+  DEP_FILE = CMakeFiles\RoadConstruct.dir\Graphs\RoadConstruction.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RoadConstruct.dir
+  OBJECT_FILE_DIR = CMakeFiles\RoadConstruct.dir\Graphs
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RoadConstruct
+
+
+#############################################
+# Link the executable RoadConstruct.exe
+
+build RoadConstruct.exe: CXX_EXECUTABLE_LINKER__RoadConstruct_Debug CMakeFiles/RoadConstruct.dir/Graphs/RoadConstruction.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RoadConstruct.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RoadConstruct.exe
+  TARGET_IMPLIB = libRoadConstruct.dll.a
+  TARGET_PDB = RoadConstruct.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target StaticRangeSumQueries
 
 
@@ -2161,6 +2227,10 @@ build Removalgame: phony Removalgame.exe
 
 build RestaurantCustomers: phony RestaurantCustomers.exe
 
+build RoadConstruct: phony RoadConstruct.exe
+
+build RoadReparation: phony RoadReparation.exe
+
 build RoomAllocation: phony RoomAllocation.exe
 
 build RoundTrip: phony RoundTrip.exe
@@ -2209,7 +2279,7 @@ build traffic: phony traffic.exe
 #############################################
 # Folder: C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug
 
-build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe TwoSets.exe IncreasingSubsequence.exe Projects.exe Removalgame.exe ElevatorRides.exe CountingNumbers.exe BuildingRoads.exe MessageRoute.exe ShortestRoutes1.exe ShortestRoutes2.exe HighScore.exe BuildingTeams.exe Labyrinth.exe CycleFinding.exe RoundTrip.exe Monsters.exe RoundTrip2.exe FlightDiscount.exe FlightRoutes.exe LongestFlightRoute.exe CourseSchedule.exe GameRoutes.exe StaticRangeSumQueries.exe StaticRangeMinimumQueries.exe
+build all: phony towers.exe traffic.exe josephesProblemEasy.exe NestedRangeCheck.exe josephesProblem.exe NestedRangeCount.exe RoomAllocation.exe FactoryMachines.exe ReadingBooks.exe SumOfThreeValues.exe TaskAndDeadlines.exe NearestSmallerValue.exe ConcertTicket.exe RestaurantCustomers.exe MovieFestival.exe CollectionNumbers2.exe SubarraySub.exe SubarrayDivisibilty.exe SubarrayDistinctValues.exe SlidingWindowMedian.exe SlidingWindowCost.exe MovieFestival2.exe MaximumSubarraySum2.exe ArrayDivision.exe SumOfFourValue.exe PointLocationTest.exe LineSegmentIntersection.exe PolygonArea.exe MinimizingCoins.exe GridPaths.exe CoinCombination2.exe CountingTowers.exe ArrayDescription.exe MoneySums.exe BookShop.exe EditDistance.exe RectangleCutting.exe TwoSets.exe IncreasingSubsequence.exe Projects.exe Removalgame.exe ElevatorRides.exe CountingNumbers.exe BuildingRoads.exe MessageRoute.exe ShortestRoutes1.exe ShortestRoutes2.exe HighScore.exe BuildingTeams.exe Labyrinth.exe CycleFinding.exe RoundTrip.exe Monsters.exe RoundTrip2.exe FlightDiscount.exe FlightRoutes.exe LongestFlightRoute.exe CourseSchedule.exe GameRoutes.exe RoadReparation.exe RoadConstruct.exe StaticRangeSumQueries.exe StaticRangeMinimumQueries.exe
 
 # =============================================================================
 # Built-in targets

@@ -57,6 +57,8 @@ C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/FlightRoutes.d
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/LongestFlightRoute.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/CourseSchedule.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/GameRoutes.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/RoadReparation.dir
+C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/RoadConstruct.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/StaticRangeSumQueries.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/StaticRangeMinimumQueries.dir
 C:/Users/ThinkPad/CLionProjects/cses/cmake-build-debug/CMakeFiles/edit_cache.dir

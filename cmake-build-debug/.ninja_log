@@ -1,5 +1,5 @@
 # ninja log v5
-1	597	7324971881008616	build.ninja	bb694314a045c020
+1	597	7326397479112075	build.ninja	bb694314a045c020
 18	3530	7303101734175740	CMakeFiles/josephesProblem.dir/sorting/NestedRangeCheck.cpp.obj	40686fbf2769434d
 1	2374	7303102921215318	CMakeFiles/towers.dir/sorting/towers.cpp.obj	fabc3b918bdaca34
 9	3538	7303129604944553	CMakeFiles/josephesProblem.dir/sorting/josephesProblem.cpp.obj	454a8000edbe53c5
@@ -30,6 +30,7 @@
 7	3253	7305950908866584	CMakeFiles/FactoryMachines.dir/sorting/FactoryMachines.cpp.obj	4f601a87156f53b2
 6	3046	7309140496290966	CMakeFiles/PolygonArea.dir/geometry/PolygonArea.cpp.obj	2266f607d47e6f3b
 3254	3459	7305950910866250	FactoryMachines.exe	60d5c6ef2098a6de
+4013	4248	7324973564309841	GameRoutes.exe	c3353adea07c586c
 6	2093	7312657042968793	CMakeFiles/MaximumSubarraySum2.dir/sorting/MaximumSubarraySum2.cpp.obj	2acbabd3f11d392
 2395	2546	7306407083615872	ReadingBooks.exe	e4ff3b7923adabee
 2658	2807	7315242174248558	MoneySums.exe	6c147155fd6f9d3b
@@ -109,4 +110,21 @@
 5	2948	7324966384485222	CMakeFiles/LongestFlightRoute.dir/Graphs/LongestFlightRoute.cpp.obj	d12f082ec59e4eea
 2949	3117	7324966386178100	LongestFlightRoute.exe	b8a6c727ac581e7f
 1	4012	7324973561969045	CMakeFiles/GameRoutes.dir/Graphs/GameRoutes.cpp.obj	6ea7f455566c2202
-4013	4248	7324973564309841	GameRoutes.exe	c3353adea07c586c
+5	3352	7326353358158092	CMakeFiles/RoadReparation.dir/Graphs/RoadReparation.cpp.obj	67fe3d5f7a37a480
+3353	3544	7326353360051253	RoadReparation.exe	b351346bfd68a148
+0	3440	7326397569836036	CMakeFiles/RoadConstruct.dir/Graphs/RoadConstruction.cpp.obj	5975fafcdeff1bfe
+3440	3638	7326397571788893	RoadConstruct.exe	1bc967309e89f47e
+6	2723	7326399257025093	CMakeFiles/RoadConstruct.dir/Graphs/RoadConstruction.cpp.obj	5975fafcdeff1bfe
+2724	2888	7326399258638687	RoadConstruct.exe	1bc967309e89f47e
+6	2749	7326399550576253	CMakeFiles/RoadConstruct.dir/Graphs/RoadConstruction.cpp.obj	5975fafcdeff1bfe
+2749	2936	7326399552399506	RoadConstruct.exe	1bc967309e89f47e
+6	2635	7326399930817779	CMakeFiles/RoadConstruct.dir/Graphs/RoadConstruction.cpp.obj	5975fafcdeff1bfe
+2636	2799	7326399932406344	RoadConstruct.exe	1bc967309e89f47e
+8	2712	7326400562516867	CMakeFiles/RoadConstruct.dir/Graphs/RoadConstruction.cpp.obj	5975fafcdeff1bfe
+2712	2872	7326400564087896	RoadConstruct.exe	1bc967309e89f47e
+6	2810	7326406338775519	CMakeFiles/RoadConstruct.dir/Graphs/RoadConstruction.cpp.obj	5975fafcdeff1bfe
+2810	2977	7326406340401334	RoadConstruct.exe	1bc967309e89f47e
+5	2513	7326407968498750	CMakeFiles/RoadConstruct.dir/Graphs/RoadConstruction.cpp.obj	5975fafcdeff1bfe
+2513	2676	7326407970089977	RoadConstruct.exe	1bc967309e89f47e
+4	2949	7326409461440549	CMakeFiles/RoadConstruct.dir/Graphs/RoadConstruction.cpp.obj	5975fafcdeff1bfe
+2950	3129	7326409463203667	RoadConstruct.exe	1bc967309e89f47e
